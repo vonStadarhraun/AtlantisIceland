@@ -1321,6 +1321,23 @@ lob_TACchange       0
 dredge_TACchange    0
 whale_TACchange     0
 
+# Some species are managed using biomass thresholds, if biomass is above a specific level then fishing is allowed.
+#To represent that in Atlantis for fishery YYY:
+#1. Set the species to be a TAC managed in the functional_group.csv file
+#2. Set YYY_flag_framebased to 1 for the fishery
+#JG 2020-11-02
+long_flag_framebased      0
+gill_flag_framebased      0
+hand_flag_framebased      0
+purse_flag_framebased     0
+danish_flag_framebased    0
+midtrawl_flag_framebased  0
+bottrawl_flag_framebased  0
+shrimp_flag_framebased    0
+lob_flag_framebased       0
+dredge_flag_framebased    0
+whale_flag_framebased     0
+
 # Flag indicating whether catchabiity of a group to a fishery changes through time. 0=no, 1=yes,
 # Assumes fisheries in order as per your fisheries definition file,
 # default: 0
@@ -4949,9 +4966,26 @@ pseudo_RBCcheck 0.8
 estBo    52
 84508.55598 21371.49346 449748.8233 129300.9404 24223.52569 495468.5015 34772.48202 61074.80556 31608.10326 502823.2194 241304.5937 48181.61781 182804.8372 102083.2197 1614996.062 29572.35368 4896.678832 37653.28414 22223.32882 207947.3803 11010.53996 12762.31358 240580.6972 19297.17245 374988.8499 37336.26258 145637.2127 1441.272243 25002.74207 7955.766383 1510.876047 16999.99348 6467.778561 4253.003871 6474.909556 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 1000000.0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
+
 #Fishing rate (F) that equates with BrefA (i.e.F to apply if B > Bref)
 Fref     52
 0.0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+#JG 2020-02-11
+estError     52
+0.0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+estCV     52
+0.0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+estBias     52
+0.0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Fref_High     52
+1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+
+Frestart_scalar     52
+1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
 
 # Harvest strategy tier for RBC setting (only >0 if dynamically setting TACs)
 # 0 = whinging harvest strategy, 1-4 = tier 1-4, tier 5 = ecological indicator based
@@ -11703,3 +11737,4 @@ DISCRDchange_discardmult_MB  1
 
 DISCRDchange_discardmult_SG  1
 1.0
+

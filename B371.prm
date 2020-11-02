@@ -186,6 +186,8 @@ flagBDlim  1 Switch to turn BD population limitation on/off: off=0, on=1 0
 flagBGlim  1 Switch to turn BG population limitation on/off: off=0, on=1 -1 0
 flagBFFlim  1 Switch to identify filter feeding crowding used: simple=0, ERSEM=1 0
 flagBClim  1 Switch to turn BC population limitation on/off
+flagMAlim 1 #JG 2020-11-02
+flagSGlim 1 #JG 2020-11-02
 
 # Those determining which environmental interaction formulations used
 flagtrackpops   1 Flag to indicate whether yearly stock value required 1
@@ -617,6 +619,30 @@ flagtempsensitiveWHT 0 1
 flagtempsensitiveWTO 0 1
 flagtempsensitiveCEP 0 0
 flagtempsensitivePWN 0 0
+flagtempsensitiveZM 0 0 #JG 2020-11-02
+flagtempsensitiveZS 0 0 #JG 2020-11-02
+flagtempsensitiveZL 0 0 #JG 2020-11-02
+flagtempsensitiveZG 0 0 #JG 2020-11-02
+flagtempsensitiveBML 0 0 #JG 2020-11-02
+flagtempsensitiveLOB 0 0 #JG 2020-11-02
+flagtempsensitiveSCA 0 0 #JG 2020-11-02
+flagtempsensitiveQUA 0 0 #JG 2020-11-02
+flagtempsensitiveCUC 0 0 #JG 2020-11-02
+flagtempsensitiveBD 0 0 #JG 2020-11-02
+flagtempsensitiveBFF 0 0 #JG 2020-11-02
+flagtempsensitiveBG 0 0 #JG 2020-11-02
+flagtempsensitiveBC 0 0 #JG 2020-11-02
+flagtempsensitiveBO 0 0 #JG 2020-11-02
+flagtempsensitivePL 0 0 #JG 2020-11-02
+flagtempsensitivePS 0 0 #JG 2020-11-02
+flagtempsensitiveMA 0 0 #JG 2020-11-02
+flagtempsensitiveSG 0 0 #JG 2020-11-02
+flagtempsensitiveDF 0 0 #JG 2020-11-02
+flagtempsensitivePB 0 0 #JG 2020-11-02
+flagtempsensitiveBB 0 0 #JG 2020-11-02
+flagtempsensitiveDL 0 0 #JG 2020-11-02
+flagtempsensitiveDR 0 0 #JG 2020-11-02
+flagtempsensitiveDC 0 0 #JG 2020-11-02
 
 
 flagq10receffFCD 0 1
@@ -3251,6 +3277,29 @@ WMW_min_move_temp  -5
 WHB_min_move_temp  -5
 WHT_min_move_temp  -5
 WTO_min_move_temp  -5
+CEP_min_move_temp -5 #JG 2020-11-02
+PWN_min_move_temp -5 #JG 2020-11-02
+ZM_min_move_temp -5 #JG 2020-11-02
+ZS_min_move_temp -5 #JG 2020-11-02
+ZL_min_move_temp -5 #JG 2020-11-02
+ZG_min_move_temp -5 #JG 2020-11-02
+BML_min_move_temp -5 #JG 2020-11-02
+LOB_min_move_temp -5 #JG 2020-11-02
+SCA_min_move_temp -5 #JG 2020-11-02
+QUA_min_move_temp -5 #JG 2020-11-02
+CUC_min_move_temp -5 #JG 2020-11-02
+BD_min_move_temp -5 #JG 2020-11-02
+BFF_min_move_temp -5 #JG 2020-11-02
+BG_min_move_temp -5 #JG 2020-11-02
+BC_min_move_temp -5 #JG 2020-11-02
+BO_min_move_temp -5 #JG 2020-11-02
+PL_min_move_temp -5 #JG 2020-11-02
+PS_min_move_temp -5 #JG 2020-11-02
+MA_min_move_temp -5 #JG 2020-11-02
+SG_min_move_temp -5 #JG 2020-11-02
+DF_min_move_temp -5 #JG 2020-11-02
+PB_min_move_temp -5 #JG 2020-11-02
+BB_min_move_temp -5 #JG 2020-11-02
 
 FCD_max_move_temp  20
 FHA_max_move_temp  20
@@ -3278,6 +3327,29 @@ WMW_max_move_temp  20
 WHB_max_move_temp  20
 WHT_max_move_temp  20
 WTO_max_move_temp  20
+CEP_max_move_temp 20 #JG 2020-11-02
+PWN_max_move_temp 20 #JG 2020-11-02
+ZM_max_move_temp 20 #JG 2020-11-02
+ZS_max_move_temp 20 #JG 2020-11-02
+ZL_max_move_temp 20 #JG 2020-11-02
+ZG_max_move_temp 20 #JG 2020-11-02
+BML_max_move_temp 20 #JG 2020-11-02
+LOB_max_move_temp 20 #JG 2020-11-02
+SCA_max_move_temp 20 #JG 2020-11-02
+QUA_max_move_temp 20 #JG 2020-11-02
+CUC_max_move_temp 20 #JG 2020-11-02
+BD_max_move_temp 20 #JG 2020-11-02
+BFF_max_move_temp 20 #JG 2020-11-02
+BG_max_move_temp 20 #JG 2020-11-02
+BC_max_move_temp 20 #JG 2020-11-02
+BO_max_move_temp 20 #JG 2020-11-02
+PL_max_move_temp 20 #JG 2020-11-02
+PS_max_move_temp 20 #JG 2020-11-02
+MA_max_move_temp 20 #JG 2020-11-02
+SG_max_move_temp 20 #JG 2020-11-02
+DF_max_move_temp 20 #JG 2020-11-02
+PB_max_move_temp 20 #JG 2020-11-02
+BB_max_move_temp 20 #JG 2020-11-02
 
 # Minimum and maximum tolerated salinity
 FCD_min_move_salt  0.0
@@ -8632,6 +8704,33 @@ WMW_min_spawn_temp -5
 WHB_min_spawn_temp -5
 WHT_min_spawn_temp -5
 WTO_min_spawn_temp -5
+CEP_min_spawn_temp -5
+PWN_min_spawn_temp -5
+ZM_min_spawn_temp -5
+ZS_min_spawn_temp -5
+ZL_min_spawn_temp -5
+ZG_min_spawn_temp -5
+BML_min_spawn_temp -5
+LOB_min_spawn_temp -5
+SCA_min_spawn_temp -5
+QUA_min_spawn_temp -5
+CUC_min_spawn_temp -5
+BD_min_spawn_temp -5
+BFF_min_spawn_temp -5
+BG_min_spawn_temp -5
+BC_min_spawn_temp -5
+BO_min_spawn_temp -5
+PL_min_spawn_temp -5
+PS_min_spawn_temp -5
+MA_min_spawn_temp -5
+MB_min_spawn_temp -5
+SG_min_spawn_temp -5
+DF_min_spawn_temp -5
+PB_min_spawn_temp -5
+BB_min_spawn_temp -5
+DL_min_spawn_temp -5
+DR_min_spawn_temp -5
+DC_min_spawn_temp -5
 
 FCD_max_spawn_temp  20
 FHA_max_spawn_temp  20
@@ -8659,6 +8758,33 @@ WMW_max_spawn_temp  20
 WHB_max_spawn_temp  20
 WHT_max_spawn_temp  20
 WTO_max_spawn_temp  20
+CEP_max_spawn_temp  20
+PWN_max_spawn_temp  20
+ZM_max_spawn_temp  20
+ZS_max_spawn_temp  20
+ZL_max_spawn_temp  20
+ZG_max_spawn_temp  20
+BML_max_spawn_temp  20
+LOB_max_spawn_temp  20
+SCA_max_spawn_temp  20
+QUA_max_spawn_temp  20
+CUC_max_spawn_temp  20
+BD_max_spawn_temp  20
+BFF_max_spawn_temp  20
+BG_max_spawn_temp  20
+BC_max_spawn_temp  20
+BO_max_spawn_temp  20
+PL_max_spawn_temp  20
+PS_max_spawn_temp  20
+MA_max_spawn_temp  20
+MB_max_spawn_temp  20
+SG_max_spawn_temp  20
+DF_max_spawn_temp  20
+PB_max_spawn_temp  20
+BB_max_spawn_temp  20
+DL_max_spawn_temp  20
+DR_max_spawn_temp  20
+DC_max_spawn_temp  20
 
 # Minimum and maximum spawning salinities
 FCD_min_spawn_salt  0
@@ -8687,6 +8813,33 @@ WMW_min_spawn_salt  0
 WHB_min_spawn_salt  0
 WHT_min_spawn_salt  0
 WTO_min_spawn_salt  0
+CEP_min_spawn_salt  0
+PWN_min_spawn_salt  0
+ZM_min_spawn_salt  0
+ZS_min_spawn_salt  0
+ZL_min_spawn_salt  0
+ZG_min_spawn_salt  0
+BML_min_spawn_salt  0
+LOB_min_spawn_salt  0
+SCA_min_spawn_salt  0
+QUA_min_spawn_salt  0
+CUC_min_spawn_salt  0
+BD_min_spawn_salt  0
+BFF_min_spawn_salt  0
+BG_min_spawn_salt  0
+BC_min_spawn_salt  0
+BO_min_spawn_salt  0
+PL_min_spawn_salt  0
+PS_min_spawn_salt  0
+MA_min_spawn_salt  0
+MB_min_spawn_salt  0
+SG_min_spawn_salt  0
+DF_min_spawn_salt  0
+PB_min_spawn_salt  0
+BB_min_spawn_salt  0
+DL_min_spawn_salt  0
+DR_min_spawn_salt  0
+DC_min_spawn_salt  0
 
 FCD_max_spawn_salt  40
 FHA_max_spawn_salt  40
@@ -8714,6 +8867,33 @@ WMW_max_spawn_salt  40
 WHB_max_spawn_salt  40
 WHT_max_spawn_salt  40
 WTO_max_spawn_salt  40
+CEP_max_spawn_salt  40
+PWN_max_spawn_salt  40
+ZM_max_spawn_salt  40
+ZS_max_spawn_salt  40
+ZL_max_spawn_salt  40
+ZG_max_spawn_salt  40
+BML_max_spawn_salt  40
+LOB_max_spawn_salt  40
+SCA_max_spawn_salt  40
+QUA_max_spawn_salt  40
+CUC_max_spawn_salt  40
+BD_max_spawn_salt  40
+BFF_max_spawn_salt  40
+BG_max_spawn_salt  40
+BC_max_spawn_salt  40
+BO_max_spawn_salt  40
+PL_max_spawn_salt  40
+PS_max_spawn_salt  40
+MA_max_spawn_salt  40
+MB_max_spawn_salt  40
+SG_max_spawn_salt  40
+DF_max_spawn_salt  40
+PB_max_spawn_salt  40
+BB_max_spawn_salt  40
+DL_max_spawn_salt  40
+DR_max_spawn_salt  40
+DC_max_spawn_salt  40
 
 ## Stock structure
 # Horizontal stock structure
@@ -9430,7 +9610,8 @@ InvaderStartDay      19710   Day of run invasion begins
 InvaderEndDay        21170    Day of run invasion ends
 InvaderScalar        5       Proportional scalar to represent drip feed of invaders to existing population
 InvaderSpeed         1200       Rate of spread of front of the invading species (m hr-1)
-
+# New flags 2020-11-02 take a better look later
+InvadersEntering 0
 
 #Added by Bec Gorton 17/12/2010
 
@@ -11269,3 +11450,12 @@ pPREYBO	56
 																																																							
 pPREYDF	56																																																						
 0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+# New flags 2020-11-02 take a better look later
+norm_larval_distrib 0
+larvae_connect_only 0
+enviro_independ_larvae 0
+flag_recruit_effect 0
+flag_modify_KWSR 0
+flag_dynamicXRS 0
+flagconstrain_epiwander 0

@@ -93,3 +93,14 @@ track_pH 0
 
 # Flag to indicate how to deal with invalid hydrodynamic exchange
 mirror_invalid 0
+
+# New flags 2020-11-02 take a better look later
+flagpassivetracer 0
+external_populations 0
+flag_multiyr_migs 0
+flag_use_deltaH 0
+flag_old_embryo_init 0
+flag_replicate_old_calendar 0
+flag_sanity_check 0
+store_aggregate_yoy 0
+store_mig_array 0
