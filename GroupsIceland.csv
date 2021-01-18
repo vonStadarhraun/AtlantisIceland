@@ -7,7 +7,7 @@ FGH,4,1,Greenland_Halibut,Reinhardtius hippoglossoides,10,1,2,1,2,1,1,1,1,1,1,FI
 FFF,5,1,Flatfish,Flatfish,10,1,2,1,2,1,1,1,1,1,1,FISH,1,0,0,1,0,0,0,0,4,0,0
 FHE,6,1,Herring,Clupea harengus,10,1,2,1,2,1,1,1,1,1,1,FISH,1,0,0,1,0,0,0,0,4,0,0
 FCA,7,1,Capelin,Mallotus villosus,6,1,2,1,1,1,1,1,1,1,1,FISH,1,0,0,1,0,0,0,0,4,0,0
-FMI,8,1,Blue_whiting,Migratory pelagics,10,1,2,1,2,1,1,1,1,1,1,FISH,1,0,0,1,0,0,0,0,4,0,0
+FMI,8,1,Blue_whiting,Micromesistius poutassou,10,1,2,1,2,1,1,1,1,1,1,FISH,1,0,0,1,0,0,0,0,4,0,0
 FMA,9,1,Mackerel,Scomber scombrus,10,1,2,1,2,1,1,1,1,1,1,FISH,1,0,0,1,0,0,0,0,4,0,0
 FOC,10,1,Other_Codfish,Other Codfish,10,1,2,1,2,1,1,1,1,1,1,FISH,1,0,0,1,0,0,0,0,4,0,0
 FDC,11,1,Demersal_Commerical,Demersal commerical,10,1,2,1,2,1,1,1,1,1,1,FISH,1,0,0,1,0,0,0,0,4,0,0

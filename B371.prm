@@ -178,8 +178,8 @@ flagkdrop  0 Switch to turn cubic bacterial growth on/off: off=0, on=1 0
 flagbactstim  0 Switch to turn stimulation of bacterial growth on/off: off=0, on=1 0
 
 ## This is for the benthic organisms growth limitations
-flagSCAlim  1 Switch to turn SCA population limitation on/off: off=0, on=1 0
-flagQUAlim  1 Switch to turn QUA population limitation on/off: off=0, on=1 0
+flagSCAlim  0 Switch to turn SCA population limitation on/off: off=0, on=1 0
+flagQUAlim  0 Switch to turn QUA population limitation on/off: off=0, on=1 0
 flagCUClim  1 Switch to turn CUC population limitation on/off: off=0, on=1 0
 flagBOlim  1 Switch to turn BO population limitation on/off: off=0, on=1 0
 flagBDlim  1 Switch to turn BD population limitation on/off: off=0, on=1 0

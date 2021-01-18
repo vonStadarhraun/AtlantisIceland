@@ -26,7 +26,7 @@ which_check   80       # ID number of group to track (if don't want to track any
 habitat_check 0
 move_check    67       # ID number of group where tracking movements
 fishmove      1        # Set to 0 to turn vertebrate movement off for debugging purposes
-debug         0        # 0=debuging off, 1=debug fishing, 2=debug discards, 3=debug histfishing,
+debug         12        # 0=debuging off, 1=debug fishing, 2=debug discards, 3=debug histfishing,
                        # 4=debug assessments, 5=debug mpas, 6=debug effort, 7=debug econ, 8=debug aging,
                        # 9=debug_spawning, 10=debug migration, 11=debug movement, 12=debug stocks,
                        # 13=debug biomass calcs, 14=debug feeding, 15=debug everything
@@ -34,10 +34,10 @@ debug         0        # 0=debuging off, 1=debug fishing, 2=debug discards, 3=de
 
 title      Iceland Atlantis model historic run
 dt         	12 hour     # 12 hour time step
-tstop       34675 day   # 23725 - 65 years, 1825 - 5years
+tstop       1825 day #34675 day   # 23725 - 65 years, 1825 - 5years
 toutstart  	0 day       # Output start time
-toutinc    	365 day     # Write output with this periodicity, 365
-toutfinc   	365 day     # Write fisheries output with this periodicity, 365
+toutinc    	7 day     # Write output with this periodicity, 365
+toutfinc   	73 day     # Write fisheries output with this periodicity, 365
 tburnday   0 day
 external_box 0
 
@@ -101,6 +101,6 @@ flag_multiyr_migs 0
 flag_use_deltaH 0
 flag_old_embryo_init 0
 flag_replicate_old_calendar 0
-flag_sanity_check 0
-store_aggregate_yoy 0
+flag_sanity_check 1
+store_aggregate_yoy 1
 store_mig_array 0
