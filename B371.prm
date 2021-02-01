@@ -7865,6 +7865,36 @@ Recruit_Period_WHB  30  Length of time recruits arrive over for Baleen whales d
 Recruit_Period_CEP 30
 Recruit_Period_PWN 30
 
+# Entry value for cohort where recruits turn up - in almost all instances this should be zero, except where there is a complicated life history like salmon
+FCA_cohort_recruit_entry  0
+FCD_cohort_recruit_entry  0
+FHA_cohort_recruit_entry  0
+FHE_cohort_recruit_entry  0
+FSA_cohort_recruit_entry  0
+FSD_cohort_recruit_entry  0
+FDL_cohort_recruit_entry  0
+FRF_cohort_recruit_entry  0
+FGH_cohort_recruit_entry  0
+FFF_cohort_recruit_entry  0
+FDC_cohort_recruit_entry  0
+FMI_cohort_recruit_entry  0
+FMA_cohort_recruit_entry  0
+FMP_cohort_recruit_entry  0
+FDF_cohort_recruit_entry  0
+FBP_cohort_recruit_entry  0
+FOC_cohort_recruit_entry  0
+SSR_cohort_recruit_entry  0
+SSH_cohort_recruit_entry  0
+PIN_cohort_recruit_entry  0
+WHT_cohort_recruit_entry  0
+WTO_cohort_recruit_entry  0
+WMW_cohort_recruit_entry  0
+WHB_cohort_recruit_entry  0
+SSD_cohort_recruit_entry  0
+SB_cohort_recruit_entry   0
+CEP_cohort_recruit_entry  0
+PWN_cohort_recruit_entry  0
+
 # gonad weight, mg/N
 # physical weight of the gonad organ 1% of total mg N
 KSPA_FCD  248   Constant in spawning formulation for Gadus morhua
