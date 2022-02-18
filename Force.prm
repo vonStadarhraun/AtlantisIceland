@@ -106,8 +106,10 @@ typeMPAts 0
 # Use hydrotime from hydro.nc
 ts_on_hydro_time 1
 
-
 use_phFiles 0
 
 # New flags 2020-11-02 take a better look later
 use_VertMixFiles 0
+
+#Pollutants? 2021-06-21
+use_pollutantfiles 0

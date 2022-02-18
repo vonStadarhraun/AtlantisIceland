@@ -14908,82 +14908,44 @@ variables:
 		Whale_Tooth_Other_N:decay = 0. ;
 		Whale_Tooth_Other_N:partic = 0 ;
 		Whale_Tooth_Other_N:_FillValue = 0. ;
-	double Cephalopod_N1(t, b, z) ;
-		Cephalopod_N1:bmtype = "tracer" ;
-		Cephalopod_N1:units = "mg N m-3" ;
-		Cephalopod_N1:long_name = "Cephalopod1 Nitrogen" ;
-		Cephalopod_N1:sumtype = 1 ;
-		Cephalopod_N1:dtype = 0 ;
-		Cephalopod_N1:inwc = 1 ;
-		Cephalopod_N1:insed = 0 ;
-		Cephalopod_N1:dissol = 0 ;
-		Cephalopod_N1:decay = 0. ;
-		Cephalopod_N1:partic = 1 ;
-		Cephalopod_N1:passive = 0 ;
-		Cephalopod_N1:svel = 0. ;
-		Cephalopod_N1:xvel = 0. ;
-		Cephalopod_N1:psize = 10. ;
-		Cephalopod_N1:b_dens = 1000000000. ;
-		Cephalopod_N1:i_conc = 200000000. ;
-		Cephalopod_N1:f_conc = 200000000. ;
-		Cephalopod_N1:_FillValue = 0.0 ;
-	double Cephalopod_N2(t, b, z) ;
-		Cephalopod_N2:bmtype = "tracer" ;
-		Cephalopod_N2:units = "mg N m-3" ;
-		Cephalopod_N2:long_name = "Cephalopod2 Nitrogen" ;
-		Cephalopod_N2:sumtype = 1 ;
-		Cephalopod_N2:dtype = 0 ;
-		Cephalopod_N2:inwc = 1 ;
-		Cephalopod_N2:insed = 0 ;
-		Cephalopod_N2:dissol = 0 ;
-		Cephalopod_N2:decay = 0. ;
-		Cephalopod_N2:partic = 1 ;
-		Cephalopod_N2:passive = 0 ;
-		Cephalopod_N2:svel = 0. ;
-		Cephalopod_N2:xvel = 0. ;
-		Cephalopod_N2:psize = 10. ;
-		Cephalopod_N2:b_dens = 1000000000. ;
-		Cephalopod_N2:i_conc = 200000000. ;
-		Cephalopod_N2:f_conc = 200000000. ;
-		Cephalopod_N2:_FillValue = 0.0 ;
-	double Shrimp_N1(t, b, z) ;
-		Shrimp_N1:bmtype = "tracer" ;
-		Shrimp_N1:units = "mg N m-3" ;
-		Shrimp_N1:long_name = "Northern Shrimp1 Nitrogen" ;
-		Shrimp_N1:sumtype = 1 ;
-		Shrimp_N1:dtype = 0 ;
-		Shrimp_N1:inwc = 1 ;
-		Shrimp_N1:insed = 0 ;
-		Shrimp_N1:dissol = 0 ;
-		Shrimp_N1:decay = 0. ;
-		Shrimp_N1:partic = 1 ;
-		Shrimp_N1:passive = 0 ;
-		Shrimp_N1:svel = 0. ;
-		Shrimp_N1:xvel = 0. ;
-		Shrimp_N1:psize = 10. ;
-		Shrimp_N1:b_dens = 1000000000. ;
-		Shrimp_N1:i_conc = 200000000. ;
-		Shrimp_N1:f_conc = 200000000. ;
-		Shrimp_N1:_FillValue = 0. ;
-	double Shrimp_N2(t, b, z) ;
-		Shrimp_N2:bmtype = "tracer" ;
-		Shrimp_N2:units = "mg N m-3" ;
-		Shrimp_N2:long_name = "Northern Shrimp2 Nitrogen" ;
-		Shrimp_N2:sumtype = 1 ;
-		Shrimp_N2:dtype = 0 ;
-		Shrimp_N2:inwc = 1 ;
-		Shrimp_N2:insed = 0 ;
-		Shrimp_N2:dissol = 0 ;
-		Shrimp_N2:decay = 0. ;
-		Shrimp_N2:partic = 1 ;
-		Shrimp_N2:passive = 0 ;
-		Shrimp_N2:svel = 0. ;
-		Shrimp_N2:xvel = 0. ;
-		Shrimp_N2:psize = 10. ;
-		Shrimp_N2:b_dens = 1000000000. ;
-		Shrimp_N2:i_conc = 200000000. ;
-		Shrimp_N2:f_conc = 200000000. ;
-		Shrimp_N2:_FillValue = 0. ;
+	double Cephalopod_N(t, b, z) ;
+		Cephalopod_N:bmtype = "tracer" ;
+		Cephalopod_N:units = "mg N m-3" ;
+		Cephalopod_N:long_name = "Cephalopod1 Nitrogen" ;
+		Cephalopod_N:sumtype = 1 ;
+		Cephalopod_N:dtype = 0 ;
+		Cephalopod_N:inwc = 1 ;
+		Cephalopod_N:insed = 0 ;
+		Cephalopod_N:dissol = 0 ;
+		Cephalopod_N:decay = 0. ;
+		Cephalopod_N:partic = 1 ;
+		Cephalopod_N:passive = 0 ;
+		Cephalopod_N:svel = 0. ;
+		Cephalopod_N:xvel = 0. ;
+		Cephalopod_N:psize = 10. ;
+		Cephalopod_N:b_dens = 1000000000. ;
+		Cephalopod_N:i_conc = 200000000. ;
+		Cephalopod_N:f_conc = 200000000. ;
+		Cephalopod_N:_FillValue = 0.0 ;
+	double Shrimp_N(t, b, z) ;
+		Shrimp_N:bmtype = "tracer" ;
+		Shrimp_N:units = "mg N m-3" ;
+		Shrimp_N:long_name = "Northern Shrimp1 Nitrogen" ;
+		Shrimp_N:sumtype = 1 ;
+		Shrimp_N:dtype = 0 ;
+		Shrimp_N:inwc = 1 ;
+		Shrimp_N:insed = 0 ;
+		Shrimp_N:dissol = 0 ;
+		Shrimp_N:decay = 0. ;
+		Shrimp_N:partic = 1 ;
+		Shrimp_N:passive = 0 ;
+		Shrimp_N:svel = 0. ;
+		Shrimp_N:xvel = 0. ;
+		Shrimp_N:psize = 10. ;
+		Shrimp_N:b_dens = 1000000000. ;
+		Shrimp_N:i_conc = 200000000. ;
+		Shrimp_N:f_conc = 200000000. ;
+		Shrimp_N:_FillValue = 0. ;
 	double Zoo_N(t, b, z) ;
 		Zoo_N:bmtype = "tracer" ;
 		Zoo_N:units = "mg N m-3" ;
@@ -59539,7 +59501,7 @@ _, _, _, _, _, _, _,
  _, _, _, _, _, _, _, 
  _, _, _, _, _, _, _; 
 
-Cephalopod_N1 =
+Cephalopod_N =
 0, _, _, _, _, _, _, 
 0.0101, _, _, _, _, _, _, 
 0, _, _, _, _, _, _, 
@@ -59594,117 +59556,7 @@ _, _, _, _, _, _, _,
 0.002, _, _, _, _, _, _, 
 _, _, _, _, _, _, _ ;
 
-Cephalopod_N2 =
-0, _, _, _, _, _, _, 
-0.0101, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0.0101, _, _, _, _, _, _, 
-0.0011, _, _, _, _, _, _, 
-0.00485, _, _, _, _, _, _, 
-0.01005, _, _, _, _, _, _, 
-0.01, _, _, _, _, _, _, 
-0.01005, _, _, _, _, _, _, 
-0.0101, _, _, _, _, _, _, 
-0.0101, _, _, _, _, _, _, 
-0.0101, _, _, _, _, _, _, 
-0.01005, _, _, _, _, _, _, 
-0.01025, _, _, _, _, _, _, 
-0.00495, _, _, _, _, _, _, 
-0.00535, _, _, _, _, _, _, 
-0.0101, _, _, _, _, _, _, 
-0.0013, _, _, _, _, _, _, 
-_, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0.00135, _, _, _, _, _, _, 
-0.0013, _, _, _, _, _, _, 
-0.00995, _, _, _, _, _, _, 
-0.01005, _, _, _, _, _, _, 
-0.0101, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0.0101, _, _, _, _, _, _, 
-0.00505, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0.0013, _, _, _, _, _, _, 
-0.01015, _, _, _, _, _, _, 
-0.00485, _, _, _, _, _, _, 
-0.005, _, _, _, _, _, _, 
-0.0049, _, _, _, _, _, _, 
-0.0101, _, _, _, _, _, _, 
-0.0101, _, _, _, _, _, _, 
-0.01005, _, _, _, _, _, _, 
-0.0101, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0.003, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0.002, _, _, _, _, _, _, 
-_, _, _, _, _, _, _ ;
-
- Shrimp_N1 =
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0.12935, _, _, _, _, _, _, 
-0.02815, _, _, _, _, _, _, 
-0.09015, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0.0881, _, _, _, _, _, _, 
-0.1896, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0.33885, _, _, _, _, _, _, 
-0.3759, _, _, _, _, _, _, 
-0.8361, _, _, _, _, _, _, 
-0.2173, _, _, _, _, _, _, 
-0.07525, _, _, _, _, _, _, 
-_, _, _, _, _, _, _, 
-0.22115, _, _, _, _, _, _, 
-0.5966, _, _, _, _, _, _, 
-0.1072, _, _, _, _, _, _, 
-0.20075, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0.14055, _, _, _, _, _, _, 
-0.83695, _, _, _, _, _, _, 
-0.1766, _, _, _, _, _, _, 
-0.03745, _, _, _, _, _, _, 
-0.06595, _, _, _, _, _, _, 
-0.21455, _, _, _, _, _, _, 
-0.64895, _, _, _, _, _, _, 
-0.40345, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0.019, _, _, _, _, _, _, 
-0.03045, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-0, _, _, _, _, _, _, 
-_, _, _, _, _, _, _ ;
-
- Shrimp_N2 =
+Shrimp_N =
 0, _, _, _, _, _, _, 
 0, _, _, _, _, _, _, 
 0, _, _, _, _, _, _, 
@@ -60068,7 +59920,7 @@ Gelat_Zoo_N =
 0, 0.1, 0, 0, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0, 0, 0, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0, 0, 0.1, 0, 0, 0, 0, 0, 0, 0, 0.1, 0;
 
  Benthic_grazer_N =
-0, 0, 0, 0, 0, 133.82, 100.36, 100.36, 0, 0, 0, 0, 0, 0, 0, 100.36, 100.36, 0, 100.36, 0, 133.82, 133.82, 133.82, 0, 0, 0, 0, 0, 0, 0, 133.82, 133.82, 133.82, 0, 100.36, 100.36, 100.36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+0, 0, 0, 0, 0, 66.91, 50.18, 50.18, 0, 0, 0, 0, 0, 0, 0, 50.18, 50.18, 0, 50.18, 0, 66.91, 66.91, 66.91, 0, 0, 0, 0, 0, 0, 0, 66.91, 66.91, 66.91, 0, 50.18, 50.18, 50.18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
 
  Benthic_Carniv_N =
 0, 0, 0, 0, 0, 0, 0, 
@@ -60457,12 +60309,12 @@ _, _, _, _, _, _, _ ;
 
  Macroalgae_N =
   _, _, _, _, _, 100, 100, 100, _, _, _, _, _, _, _, 100, 100, _, 100, _, 
-    100, 100, 100, _, _, _, _, _, _, _, 100, 100, 100, _, 100, 100, 100, _, 
+    500, 100, 100, _, _, _, _, _, _, _, 100, 500, 100, _, 100, 100, 100, _, 
     _, _, _, _, _, _, _, _, _, _, _, _, _, 100, _ ;
 
  Macroalgae_Cover =
   _, _, _, _, _, 0.05, 0.05, 0.05, _, _, _, _, _, _, _, 0.05, 0.05, _, 0.05, 
-    _, 0.05, 0.05, 0.05, _, _, _, _, _, _, _, 0.05, 0.05, 0.05, _, 0.05, 
+    _, 0.15, 0.05, 0.05, _, _, _, _, _, _, _, 0.05, 0.15, 0.05, _, 0.05, 
     0.05, 0.05, _, _, _, _, _, _, _, _, _, _, _, _, _, _, 0.05, _ ;
 
  MicroPB_N =

@@ -217,6 +217,8 @@ flagStoreShotCPUE    0    Flag indicating whether or not shot level CPUE data to
 
 flagStoreCPUE    0        Flag indicating whether or not shot level CPUE data to be generated and stored: 1=store shot level CPUE, 0=off
 
+flagkeepZeroCatchTS  0     CHECK WHAT THIS IS 
+
 # This sets the start date of a fishery in days after the start of the run
 # default: 0
 long_tStart 	0                                                                         0
@@ -2263,11 +2265,11 @@ CatchTS_agedistribWHT  10
 CatchTS_agedistribWTO  10
 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 
 
-CatchTS_agedistribCEP  2
-0 1
+# CatchTS_agedistribCEP  2
+# 0 1
 
-CatchTS_agedistribPWN  2
-0 1
+# CatchTS_agedistribPWN  2
+# 0 1
 
 # Proportion of catch which defines perferred target size (so if CatchTS value > highgrade_thresh this is preferred cohort)
 # default: 0.1
@@ -3717,15 +3719,15 @@ sel_WTOad      11
 sel_WTOjuv      11
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
 
-sel_CEPad      11
+sel_CEP      11
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-sel_CEPjuv      11
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+# sel_CEPjuv      11
+# 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
 
-sel_PWNad      11
+sel_PWN      11
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-sel_PWNjuv      11
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+# sel_PWNjuv      11
+# 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
 
 ## Selectivity curve parameters
 # Logistic selectivity curve parameters
@@ -10247,11 +10249,11 @@ FFCDR_WHTchrt 10
 FFCDR_WTOchrt 10
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
 
-FFCDR_CEPchrt 2
-0.0 0.0
+# FFCDR_CEPchrt 2
+# 0.0 0.0
 
-FFCDR_PWNchrt 2
-0.0 0.0
+# FFCDR_PWNchrt 2
+# 0.0 0.0
 
 # Constant discards per cohort per group. Note that this is "entry 1"
 # for the purposes of FC_case above (for the vertebrates only)
@@ -10334,11 +10336,11 @@ FFCDR_WHTchrtB 10
 FFCDR_WTOchrtB 10
 0 0 0 0 0 0 0 0 0 0 
 
-FFCDR_CEPchrtB 2
-0 0 
+# FFCDR_CEPchrtB 2
+# 0 0 
 
-FFCDR_PWNchrtB 2
-0 0 
+# FFCDR_PWNchrtB 2
+# 0 0 
 
 # Size based discarding
 # Threshold length below which the group is discarded for each fishery.
@@ -11004,11 +11006,11 @@ DiscardTS_agedistribWHT  10
 DiscardTS_agedistribWTO  10
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
 
-DiscardTS_agedistribCEP  2
-0.0 0.0 
+# DiscardTS_agedistribCEP  2
+# 0.0 0.0 
 
-DiscardTS_agedistribPWN  2
-0.0 0.0
+# DiscardTS_agedistribPWN  2
+# 0.0 0.0
 
 # Changes in discarding through time - number of changes in discarding
 # Assumes fisheries in order as per your fisheries definition file,
