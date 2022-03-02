@@ -34,7 +34,7 @@ debug         0        # 0=debuging off, 1=debug fishing, 2=debug discards, 3=de
 
 title      Iceland Atlantis model historic run
 dt         	12 hour     # 12 hour time step
-tstop       6205 day   # 23725 - 65 years, 1825 - 5years
+tstop       23725 day   # 23725 - 65 years, 1825 - 5years
 toutstart  	0 day       # Output start time
 toutinc    	90 day     # Write output with this periodicity, 365
 toutfinc   	90 day     # Write fisheries output with this periodicity, 365

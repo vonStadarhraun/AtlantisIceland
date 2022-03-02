@@ -2186,9 +2186,9 @@ reportscale_SG  11
 # Constant discards per cohort per group. Length of each array determined by number of cohorts defined in functional group definition file.
 # default: 0.10, ATTN: Erla
 
-CatchTS_agedistribFCD  10
-0 0.027 0.1641 0.2687 0.2103 0.2059 0.0742 0.0331 0.0124 0.0043
-
+CatchTS_agedistribFCD  16
+# 0 0.027 0.1641 0.2687 0.2103 0.2059 0.0742 0.0331 0.0124 0.0043
+0 0 0.0363 0.1249 0.1858 0.1916 0.1614 0.1208 0.0754 0.0497 0.0266 0.0133 0.0072 0.0045 0.0018 0.0007
 CatchTS_agedistribFHA  10
 0 0.05923 0.44294 0.43247 0.05314 0.00996 0.00189 3e-04 6e-05 1e-05
 
@@ -10172,7 +10172,8 @@ FC_caseSG 11
 
 # Constant discards per cohort per group. Array length is number of cohorts defined for group in the functional group definition file.
 FFCDR_FCDchrt 10
-1.0 0.2 0.05 0.001 0.001 0.001 0.001 0.001 0.001 0.001  
+#1.0 0.2 0.05 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+1.0 1.0 0.5 0.2 0.05 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 
 
 FFCDR_FHAchrt 10
 1.0 0.3 0.05 0.005 0.005 0.001 0.001 0.001 0.001 0.001 
@@ -10258,8 +10259,8 @@ FFCDR_WTOchrt 10
 # Constant discards per cohort per group. Note that this is "entry 1"
 # for the purposes of FC_case above (for the vertebrates only)
 # default: 0
-FFCDR_FCDchrtB 10
-0 0 0 0 0 0 0 0 0 0 
+FFCDR_FCDchrtB 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 
 FFCDR_FHAchrtB 10
 0 0 0 0 0 0 0 0 0 0 
@@ -10928,8 +10929,8 @@ k_waste_SG 11
 # Discard by age distribution for conditioning time series of discard (if used)
 # Constant discards per cohort per group. Length of each array determined by number of cohorts defined in functional group definition file.
 # default: 0
-DiscardTS_agedistribFCD  10
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+DiscardTS_agedistribFCD  16
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
 
 DiscardTS_agedistribFHA  10
 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 

@@ -4734,8 +4734,8 @@ KMIGa_INVERT_BML	1
 
 # from B1
 # Numbers per age group
-KMIGa_FCD 10
-0 0 0 0 0 0 0 0 0 0
+KMIGa_FCD 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 KMIGa_FHA 10
 0 0 0 0 0 0 0 0 0 0
@@ -4813,8 +4813,8 @@ KMIGa_WHT 10
 0 0 0 0 0 0 0 0 0 0
 
 # Reserve weights for each age group
-KMIGa_FCDrn 10
-0 0 0 0 0 0 0 0 0 0
+KMIGa_FCDrn 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 KMIGa_FHArn 10
 0 0 0 0 0 0 0 0 0 0
@@ -4894,8 +4894,8 @@ KMIGa_WHTrn 10
 0 0 0 0 0 0 0 0 0 0
 
 # Structural weights for each age group
-KMIGa_FCDsn 10
-0 0 0 0 0 0 0 0 0 0
+KMIGa_FCDsn 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 KMIGa_FHAsn 10
 0 0 0 0 0 0 0 0 0 0
@@ -5041,32 +5041,32 @@ age_structured_prey_WHT 0
 # Fraction of megazoobenthos exploitable by each age class of deep piscivore
 
 # --- THESE FLAGS MAY BE UNNECESSARY  --- #
-p_ZGFCD 10
-0 0 0 0 0 0 0 0 0 0
+p_ZGFCD 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_ZLFCD 10
-0 0 0 0 0 0 0 0 0 0
+p_ZLFCD 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_ZMFCD 10
-0 0 0 0 0 0 0 0 0 0
+p_ZMFCD 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BCFCD 10
-0 0 0 0 0 0 0 0 0 0
+p_BCFCD 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BDFCD 10
-0 0 0 0 0 0 0 0 0 0
+p_BDFCD 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BFFCD 10
-0 0 0 0 0 0 0 0 0 0
+p_BFFCD 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BGFFCD 10
-0 0 0 0 0 0 0 0 0 0
+p_BGFFCD 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BMFFCD 10
-0 0 0 0 0 0 0 0 0 0
+p_BMFFCD 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BMLFCD 10
-0 0 0 0 0 0 0 0 0 0
+p_BMLFCD 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 p_ZGFHA 10
 0 0 0 0 0 0 0 0 0 0
@@ -6161,8 +6161,8 @@ C_BB_T15         0.001       Clearance rate of benthic bacteria                 
 flagfishrates  0  Switch to show whether clearance and growth rates are absolute=0, or as proportion of body mass=1
 
 ## From iabioparams.R
-C_FCD 10
-40.03 538.01 1751.52 3500.83 5100.83 7361.67 8923.23 10276.43 11423.18 11423.18
+C_FCD 16
+42.43 263.19 755.35 1469.50 1987.33 2948.01 3811.40 4679.28 5507.51 6351.74 7165.33 7898.17 8303.81 8958.46 9564.96 9564.96
 
 C_FHA 10
 128.37 591.11 1213.09 1720.55 2125.93 2428.38 2642.97 2794.38 2899.74 2899.74
@@ -6256,7 +6256,7 @@ mum_PB_T15       1.2      Growth rate of pelagic bacteria                  mg N 
 mum_BB_T15       1.5      Growth rate of sediment bacteria                 mg N d-1       1.0 - 2.0
 mum_CEP_T15   0.075  Growth rate of cephalopods (from AMS was 0.05 in NSW) mg N d-1 0.02 - 0.35
 # mum_jCEP_T15   0.25  Growth rate of juvenile cephalopods (from AMS was 0.05 in NSW) mg N d-1 0.02 - 0.35
-mum_PWN_T15   0.0022 Growth rate of prawns (from AMS was 0.004 in NSW) mg N d-1 0.0015 - 0.015
+mum_PWN_T15   0.0021 Growth rate of prawns (from AMS was 0.004 in NSW) mg N d-1 0.0015 - 0.015
 # mum_jPWN_T15   0.007  Growth rate of juvenile prawns (From AMS was 0.004 in NSW) mg N d-1 0.0015 - 0.015
 mum_LOB_T15      0.003    Growth rate of lobsters                     mg N d-1      0.0015 - 0.015
 mum_QUA_T15      0.016    Growth rate of quahog                     mg N d-1      0.0015 - 0.015
@@ -6266,8 +6266,8 @@ mum_CUC_T15      0.016    Growth rate of cucumbers                     mg N d-1 
 # Vertebrate growth rates for each group, per age class mg N d-1
 
 ### iabioparams.R
-mum_FCD 10
-5.0 67.00 219.69 436.48 643.48 920.21 1115.40 1284.55 1427.90 1427.90
+mum_FCD 16
+5.30 32.90 94.42 183.69 248.42 368.50 476.43 584.91 688.44 793.97 895.67 987.27 1037.98 1119.81 1195.62 1195.62
 
 mum_FHA 10
 16.0 73.89 151.64 215.07 265.74 303.55 330.37 349.30 362.47 362.47
@@ -7668,7 +7668,7 @@ Fben_den  0.95  Fraction of NH release from OB and BD used in nitrif etc calcs 0
 #from m1
 
 ## Vertebrate age structure parameters
-FCD_AgeClassSize  2 Number of years represented in each age class of FCD
+FCD_AgeClassSize  1 Number of years represented in each age class of FCD
 FHA_AgeClassSize  2 Number of years represented in each age class of FHA
 FSA_AgeClassSize  2 Number of years represented in each age class of FSA
 FRF_AgeClassSize  5 Number of years represented in each age class of FRF
@@ -7698,7 +7698,7 @@ SSH_AgeClassSize  10 Number of years represented in each age class of SSH
 # Age class of maturity
 # These are mri_fisheries_tables (first)
 # Literature then fishbase
-FCD_age_mat  2 First mature age class of FCD
+FCD_age_mat  3 First mature age class of FCD
 FHA_age_mat  2 First mature age class of FHA
 FSA_age_mat  2 First mature age class of FSA
 FRF_age_mat  3 First mature age class of FRF
@@ -7971,8 +7971,8 @@ FSP_WTO  0.15   Fraction used in spawning formulation for Other toothed whales
 ## Proportion of the population (per age) spawning. One value per cohort, number of cohorts defined in your functional group definition file.
 
 ### --- These are from the iceland_bioparams.xls spread sheet --- ###
-FSPB_FCD 10
-0 0.004137931 0.127758621 0.579655172 0.820862069 0.957931034 0.990517241 1 1 1
+FSPB_FCD 16
+0 0 0.012 0.033 0.126 0.365 0.661 0.810 0.839 0.929 0.998 1 1 1 1 1
 FSPB_FHA 10
 0.035 0.399 0.768 0.898 0.968 1 1 1 1 1
 FSPB_FSA 10
@@ -8403,7 +8403,7 @@ PP_FOC           4.90E+07  Coefficient relating primary production and Scomber s
 PP_FDC           4.90E+07  Coefficient relating primary production and Molva dypterygia recruits
 PP_FMI           4.90E+07  Coefficient relating primary production and Lophius piscatorius recruits
 PP_FMA           4.90E+07  Coefficient relating primary production and Lophius piscatorius recruits
-PP_FGH			 4.90E+07
+PP_FGH		 4.90E+07
 PP_FDF           4.90E+07  Coefficient relating primary production and Other demersal fish recruits
 PP_FDL           4.90E+07  Coefficient relating primary production and Demersal long-lived fish recruits
 PP_FSD           4.90E+07  Coefficient relating primary production and Planktivorous fish recruits

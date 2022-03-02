@@ -41,7 +41,7 @@ variables:
 		Cod1_ResN:b_dens = 1000000000. ;
 		Cod1_ResN:i_conc = 200000000. ;
 		Cod1_ResN:f_conc = 200000000. ;
-		Cod1_ResN:_FillValue = 162.08 ;
+		Cod1_ResN:_FillValue = 140.7 ;
 	double Cod1_StructN(t, b, z) ;
 		Cod1_StructN:bmtype = "tracer" ;
 		Cod1_StructN:units = "mg N" ;
@@ -60,7 +60,7 @@ variables:
 		Cod1_StructN:b_dens = 1000000000. ;
 		Cod1_StructN:i_conc = 200000000. ;
 		Cod1_StructN:f_conc = 200000000. ;
-		Cod1_StructN:_FillValue = 61.16 ;
+		Cod1_StructN:_FillValue = 61.2 ;
 	double Cod2_Nums(t, b, z) ;
 		Cod2_Nums:bmtype = "tracer" ;
 		Cod2_Nums:units = "1" ;
@@ -98,7 +98,7 @@ variables:
 		Cod2_ResN:b_dens = 1000000000. ;
 		Cod2_ResN:i_conc = 200000000. ;
 		Cod2_ResN:f_conc = 200000000. ;
-		Cod2_ResN:_FillValue = 3757.10 ;
+		Cod2_ResN:_FillValue = 1055.2 ;
 	double Cod2_StructN(t, b, z) ;
 		Cod2_StructN:bmtype = "tracer" ;
 		Cod2_StructN:units = "mg N" ;
@@ -117,7 +117,7 @@ variables:
 		Cod2_StructN:b_dens = 1000000000. ;
 		Cod2_StructN:i_conc = 200000000. ;
 		Cod2_StructN:f_conc = 200000000. ;
-		Cod2_StructN:_FillValue = 1417.77 ;
+		Cod2_StructN:_FillValue = 458.8 ;
 	double Cod3_Nums(t, b, z) ;
 		Cod3_Nums:bmtype = "tracer" ;
 		Cod3_Nums:units = "1" ;
@@ -155,7 +155,7 @@ variables:
 		Cod3_ResN:b_dens = 1000000000. ;
 		Cod3_ResN:i_conc = 200000000. ;
 		Cod3_ResN:f_conc = 200000000. ;
-		Cod3_ResN:_FillValue = 13907.41 ;
+		Cod3_ResN:_FillValue = 3260.9 ;
 	double Cod3_StructN(t, b, z) ;
 		Cod3_StructN:bmtype = "tracer" ;
 		Cod3_StructN:units = "mg N" ;
@@ -174,7 +174,7 @@ variables:
 		Cod3_StructN:b_dens = 1000000000. ;
 		Cod3_StructN:i_conc = 200000000. ;
 		Cod3_StructN:f_conc = 200000000. ;
-		Cod3_StructN:_FillValue = 5248.08 ;
+		Cod3_StructN:_FillValue = 1417.8 ;
 	double Cod4_Nums(t, b, z) ;
 		Cod4_Nums:bmtype = "tracer" ;
 		Cod4_Nums:units = "1" ;
@@ -212,7 +212,7 @@ variables:
 		Cod4_ResN:b_dens = 1000000000. ;
 		Cod4_ResN:i_conc = 200000000. ;
 		Cod4_ResN:f_conc = 200000000. ;
-		Cod4_ResN:_FillValue = 29692.95 ;
+		Cod4_ResN:_FillValue = 6949.1 ;
 	double Cod4_StructN(t, b, z) ;
 		Cod4_StructN:bmtype = "tracer" ;
 		Cod4_StructN:units = "mg N" ;
@@ -231,7 +231,7 @@ variables:
 		Cod4_StructN:b_dens = 1000000000. ;
 		Cod4_StructN:i_conc = 200000000. ;
 		Cod4_StructN:f_conc = 200000000. ;
-		Cod4_StructN:_FillValue = 11204.89 ;
+		Cod4_StructN:_FillValue = 3021.4 ;
 	double Cod5_Nums(t, b, z) ;
 		Cod5_Nums:bmtype = "tracer" ;
 		Cod5_Nums:units = "1" ;
@@ -269,7 +269,7 @@ variables:
 		Cod5_ResN:b_dens = 1000000000. ;
 		Cod5_ResN:i_conc = 200000000. ;
 		Cod5_ResN:f_conc = 200000000. ;
-		Cod5_ResN:_FillValue = 48709.79 ;
+		Cod5_ResN:_FillValue = 12070.6 ;
 	double Cod5_StructN(t, b, z) ;
 		Cod5_StructN:bmtype = "tracer" ;
 		Cod5_StructN:units = "mg N" ;
@@ -288,7 +288,7 @@ variables:
 		Cod5_StructN:b_dens = 1000000000. ;
 		Cod5_StructN:i_conc = 200000000. ;
 		Cod5_StructN:f_conc = 200000000. ;
-		Cod5_StructN:_FillValue = 18381.05 ;
+		Cod5_StructN:_FillValue = 5248.1 ;
 	double Cod6_Nums(t, b, z) ;
 		Cod6_Nums:bmtype = "tracer" ;
 		Cod6_Nums:units = "1" ;
@@ -326,7 +326,7 @@ variables:
 		Cod6_ResN:b_dens = 1000000000. ;
 		Cod6_ResN:i_conc = 200000000. ;
 		Cod6_ResN:f_conc = 200000000. ;
-		Cod6_ResN:_FillValue = 68669.73 ;
+		Cod6_ResN:_FillValue = 18432.0 ;
 	double Cod6_StructN(t, b, z) ;
 		Cod6_StructN:bmtype = "tracer" ;
 		Cod6_StructN:units = "mg N" ;
@@ -345,7 +345,7 @@ variables:
 		Cod6_StructN:b_dens = 1000000000. ;
 		Cod6_StructN:i_conc = 200000000. ;
 		Cod6_StructN:f_conc = 200000000. ;
-		Cod6_StructN:_FillValue = 25913.11 ;
+		Cod6_StructN:_FillValue = 8013.9 ;
 	double Cod7_Nums(t, b, z) ;
 		Cod7_Nums:bmtype = "tracer" ;
 		Cod7_Nums:units = "1" ;
@@ -383,7 +383,7 @@ variables:
 		Cod7_ResN:b_dens = 1000000000. ;
 		Cod7_ResN:i_conc = 200000000. ;
 		Cod7_ResN:f_conc = 200000000. ;
-		Cod7_ResN:_FillValue = 87928.21 ;
+		Cod7_ResN:_FillValue = 25771.2 ;
 	double Cod7_StructN(t, b, z) ;
 		Cod7_StructN:bmtype = "tracer" ;
 		Cod7_StructN:units = "mg N" ;
@@ -402,7 +402,7 @@ variables:
 		Cod7_StructN:b_dens = 1000000000. ;
 		Cod7_StructN:i_conc = 200000000. ;
 		Cod7_StructN:f_conc = 200000000. ;
-		Cod7_StructN:_FillValue = 33180.45 ;
+		Cod7_StructN:_FillValue = 11204.9 ;
 	double Cod8_Nums(t, b, z) ;
 		Cod8_Nums:bmtype = "tracer" ;
 		Cod8_Nums:units = "1" ;
@@ -440,7 +440,7 @@ variables:
 		Cod8_ResN:b_dens = 1000000000. ;
 		Cod8_ResN:i_conc = 200000000. ;
 		Cod8_ResN:f_conc = 200000000. ;
-		Cod8_ResN:_FillValue = 105508.72 ;
+		Cod8_ResN:_FillValue = 33808.2 ;
 	double Cod8_StructN(t, b, z) ;
 		Cod8_StructN:bmtype = "tracer" ;
 		Cod8_StructN:units = "mg N" ;
@@ -459,7 +459,7 @@ variables:
 		Cod8_StructN:b_dens = 1000000000. ;
 		Cod8_StructN:i_conc = 200000000. ;
 		Cod8_StructN:f_conc = 200000000. ;
-		Cod8_StructN:_FillValue = 39814.61 ;
+		Cod8_StructN:_FillValue = 14699.2 ;
 	double Cod9_Nums(t, b, z) ;
 		Cod9_Nums:bmtype = "tracer" ;
 		Cod9_Nums:units = "1" ;
@@ -497,7 +497,7 @@ variables:
 		Cod9_ResN:b_dens = 1000000000. ;
 		Cod9_ResN:i_conc = 200000000. ;
 		Cod9_ResN:f_conc = 200000000. ;
-		Cod9_ResN:_FillValue = 120955.19 ;
+		Cod9_ResN:_FillValue = 42276.4 ;
 	double Cod9_StructN(t, b, z) ;
 		Cod9_StructN:bmtype = "tracer" ;
 		Cod9_StructN:units = "mg N" ;
@@ -516,7 +516,7 @@ variables:
 		Cod9_StructN:b_dens = 1000000000. ;
 		Cod9_StructN:i_conc = 200000000. ;
 		Cod9_StructN:f_conc = 200000000. ;
-		Cod9_StructN:_FillValue = 45643.47 ;
+		Cod9_StructN:_FillValue = 18381.1 ;
 	double Cod10_Nums(t, b, z) ;
 		Cod10_Nums:bmtype = "tracer" ;
 		Cod10_Nums:units = "1" ;
@@ -554,7 +554,7 @@ variables:
 		Cod10_ResN:b_dens = 1000000000. ;
 		Cod10_ResN:i_conc = 200000000. ;
 		Cod10_ResN:f_conc = 200000000. ;
-		Cod10_ResN:_FillValue = 134160.99 ;
+		Cod10_ResN:_FillValue = 50939.7 ;
 	double Cod10_StructN(t, b, z) ;
 		Cod10_StructN:bmtype = "tracer" ;
 		Cod10_StructN:units = "mg N" ;
@@ -573,7 +573,349 @@ variables:
 		Cod10_StructN:b_dens = 1000000000. ;
 		Cod10_StructN:i_conc = 200000000. ;
 		Cod10_StructN:f_conc = 200000000. ;
-		Cod10_StructN:_FillValue = 50626.79 ;
+		Cod10_StructN:_FillValue = 22147.7 ;
+	double Cod11_Nums(t, b, z) ;
+		Cod11_Nums:bmtype = "tracer" ;
+		Cod11_Nums:units = "1" ;
+		Cod11_Nums:long_name = "Numbers of Gadus morhua cohort 11" ;
+		Cod11_Nums:sumtype = 0 ;
+		Cod11_Nums:dtype = 0 ;
+		Cod11_Nums:inwc = 0 ;
+		Cod11_Nums:insed = 0 ;
+		Cod11_Nums:dissol = 0 ;
+		Cod11_Nums:decay = 0. ;
+		Cod11_Nums:partic = 1 ;
+		Cod11_Nums:passive = 0 ;
+		Cod11_Nums:svel = 0. ;
+		Cod11_Nums:xvel = 0. ;
+		Cod11_Nums:psize = 10. ;
+		Cod11_Nums:b_dens = 1000000000. ;
+		Cod11_Nums:i_conc = 200000000. ;
+		Cod11_Nums:f_conc = 200000000. ;
+		Cod11_Nums:_FillValue = 0. ;
+	double Cod11_ResN(t, b, z) ;
+		Cod11_ResN:bmtype = "tracer" ;
+		Cod11_ResN:units = "mg N" ;
+		Cod11_ResN:long_name = "Individ reserve N for Gadus morhua cohort 11" ;
+		Cod11_ResN:sumtype = 0 ;
+		Cod11_ResN:dtype = 0 ;
+		Cod11_ResN:inwc = 0 ;
+		Cod11_ResN:insed = 0 ;
+		Cod11_ResN:dissol = 0 ;
+		Cod11_ResN:decay = 0. ;
+		Cod11_ResN:partic = 1 ;
+		Cod11_ResN:passive = 0 ;
+		Cod11_ResN:svel = 0. ;
+		Cod11_ResN:xvel = 0. ;
+		Cod11_ResN:psize = 10. ;
+		Cod11_ResN:b_dens = 1000000000. ;
+		Cod11_ResN:i_conc = 200000000. ;
+		Cod11_ResN:f_conc = 200000000. ;
+		Cod11_ResN:_FillValue = 59600.1 ;
+	double Cod11_StructN(t, b, z) ;
+		Cod11_StructN:bmtype = "tracer" ;
+		Cod11_StructN:units = "mg N" ;
+		Cod11_StructN:long_name = "Individ structural N for Gadus morhua cohort 11" ;
+		Cod11_StructN:sumtype = 0 ;
+		Cod11_StructN:dtype = 0 ;
+		Cod11_StructN:inwc = 0 ;
+		Cod11_StructN:insed = 0 ;
+		Cod11_StructN:dissol = 0 ;
+		Cod11_StructN:decay = 0. ;
+		Cod11_StructN:partic = 1 ;
+		Cod11_StructN:passive = 0 ;
+		Cod11_StructN:svel = 0. ;
+		Cod11_StructN:xvel = 0. ;
+		Cod11_StructN:psize = 10. ;
+		Cod11_StructN:b_dens = 1000000000. ;
+		Cod11_StructN:i_conc = 200000000. ;
+		Cod11_StructN:f_conc = 200000000. ;
+		Cod11_StructN:_FillValue = 25913.1 ;
+	double Cod12_Nums(t, b, z) ;
+		Cod12_Nums:bmtype = "tracer" ;
+		Cod12_Nums:units = "1" ;
+		Cod12_Nums:long_name = "Numbers of Gadus morhua cohort 12" ;
+		Cod12_Nums:sumtype = 0 ;
+		Cod12_Nums:dtype = 0 ;
+		Cod12_Nums:inwc = 0 ;
+		Cod12_Nums:insed = 0 ;
+		Cod12_Nums:dissol = 0 ;
+		Cod12_Nums:decay = 0. ;
+		Cod12_Nums:partic = 1 ;
+		Cod12_Nums:passive = 0 ;
+		Cod12_Nums:svel = 0. ;
+		Cod12_Nums:xvel = 0. ;
+		Cod12_Nums:psize = 10. ;
+		Cod12_Nums:b_dens = 1000000000. ;
+		Cod12_Nums:i_conc = 200000000. ;
+		Cod12_Nums:f_conc = 200000000. ;
+		Cod12_Nums:_FillValue = 0. ;
+	double Cod12_ResN(t, b, z) ;
+		Cod12_ResN:bmtype = "tracer" ;
+		Cod12_ResN:units = "mg N" ;
+		Cod12_ResN:long_name = "Individ reserve N for Gadus morhua cohort 12" ;
+		Cod12_ResN:sumtype = 0 ;
+		Cod12_ResN:dtype = 0 ;
+		Cod12_ResN:inwc = 0 ;
+		Cod12_ResN:insed = 0 ;
+		Cod12_ResN:dissol = 0 ;
+		Cod12_ResN:decay = 0. ;
+		Cod12_ResN:partic = 1 ;
+		Cod12_ResN:passive = 0 ;
+		Cod12_ResN:svel = 0. ;
+		Cod12_ResN:xvel = 0. ;
+		Cod12_ResN:psize = 10. ;
+		Cod12_ResN:b_dens = 1000000000. ;
+		Cod12_ResN:i_conc = 200000000. ;
+		Cod12_ResN:f_conc = 200000000. ;
+		Cod12_ResN:_FillValue = 68099.0 ;
+	double Cod12_StructN(t, b, z) ;
+		Cod12_StructN:bmtype = "tracer" ;
+		Cod12_StructN:units = "mg N" ;
+		Cod12_StructN:long_name = "Individ structural N for Gadus morhua cohort 12" ;
+		Cod12_StructN:sumtype = 0 ;
+		Cod12_StructN:dtype = 0 ;
+		Cod12_StructN:inwc = 0 ;
+		Cod12_StructN:insed = 0 ;
+		Cod12_StructN:dissol = 0 ;
+		Cod12_StructN:decay = 0. ;
+		Cod12_StructN:partic = 1 ;
+		Cod12_StructN:passive = 0 ;
+		Cod12_StructN:svel = 0. ;
+		Cod12_StructN:xvel = 0. ;
+		Cod12_StructN:psize = 10. ;
+		Cod12_StructN:b_dens = 1000000000. ;
+		Cod12_StructN:i_conc = 200000000. ;
+		Cod12_StructN:f_conc = 200000000. ;
+		Cod12_StructN:_FillValue = 29608.3 ;
+	double Cod13_Nums(t, b, z) ;
+		Cod13_Nums:bmtype = "tracer" ;
+		Cod13_Nums:units = "1" ;
+		Cod13_Nums:long_name = "Numbers of Gadus morhua cohort 13" ;
+		Cod13_Nums:sumtype = 0 ;
+		Cod13_Nums:dtype = 0 ;
+		Cod13_Nums:inwc = 0 ;
+		Cod13_Nums:insed = 0 ;
+		Cod13_Nums:dissol = 0 ;
+		Cod13_Nums:decay = 0. ;
+		Cod13_Nums:partic = 1 ;
+		Cod13_Nums:passive = 0 ;
+		Cod13_Nums:svel = 0. ;
+		Cod13_Nums:xvel = 0. ;
+		Cod13_Nums:psize = 10. ;
+		Cod13_Nums:b_dens = 1000000000. ;
+		Cod13_Nums:i_conc = 200000000. ;
+		Cod13_Nums:f_conc = 200000000. ;
+		Cod13_Nums:_FillValue = 0. ;
+	double Cod13_ResN(t, b, z) ;
+		Cod13_ResN:bmtype = "tracer" ;
+		Cod13_ResN:units = "mg N" ;
+		Cod13_ResN:long_name = "Individ reserve N for Gadus morhua cohort 13" ;
+		Cod13_ResN:sumtype = 0 ;
+		Cod13_ResN:dtype = 0 ;
+		Cod13_ResN:inwc = 0 ;
+		Cod13_ResN:insed = 0 ;
+		Cod13_ResN:dissol = 0 ;
+		Cod13_ResN:decay = 0. ;
+		Cod13_ResN:partic = 1 ;
+		Cod13_ResN:passive = 0 ;
+		Cod13_ResN:svel = 0. ;
+		Cod13_ResN:xvel = 0. ;
+		Cod13_ResN:psize = 10. ;
+		Cod13_ResN:b_dens = 1000000000. ;
+		Cod13_ResN:i_conc = 200000000. ;
+		Cod13_ResN:f_conc = 200000000. ;
+		Cod13_ResN:_FillValue = 76315.0 ;
+	double Cod13_StructN(t, b, z) ;
+		Cod13_StructN:bmtype = "tracer" ;
+		Cod13_StructN:units = "mg N" ;
+		Cod13_StructN:long_name = "Individ structural N for Gadus morhua cohort 13" ;
+		Cod13_StructN:sumtype = 0 ;
+		Cod13_StructN:dtype = 0 ;
+		Cod13_StructN:inwc = 0 ;
+		Cod13_StructN:insed = 0 ;
+		Cod13_StructN:dissol = 0 ;
+		Cod13_StructN:decay = 0. ;
+		Cod13_StructN:partic = 1 ;
+		Cod13_StructN:passive = 0 ;
+		Cod13_StructN:svel = 0. ;
+		Cod13_StructN:xvel = 0. ;
+		Cod13_StructN:psize = 10. ;
+		Cod13_StructN:b_dens = 1000000000. ;
+		Cod13_StructN:i_conc = 200000000. ;
+		Cod13_StructN:f_conc = 200000000. ;
+		Cod13_StructN:_FillValue = 33180.5 ;
+	double Cod14_Nums(t, b, z) ;
+		Cod14_Nums:bmtype = "tracer" ;
+		Cod14_Nums:units = "1" ;
+		Cod14_Nums:long_name = "Numbers of Gadus morhua cohort 14" ;
+		Cod14_Nums:sumtype = 0 ;
+		Cod14_Nums:dtype = 0 ;
+		Cod14_Nums:inwc = 0 ;
+		Cod14_Nums:insed = 0 ;
+		Cod14_Nums:dissol = 0 ;
+		Cod14_Nums:decay = 0. ;
+		Cod14_Nums:partic = 1 ;
+		Cod14_Nums:passive = 0 ;
+		Cod14_Nums:svel = 0. ;
+		Cod14_Nums:xvel = 0. ;
+		Cod14_Nums:psize = 10. ;
+		Cod14_Nums:b_dens = 1000000000. ;
+		Cod14_Nums:i_conc = 200000000. ;
+		Cod14_Nums:f_conc = 200000000. ;
+		Cod14_Nums:_FillValue = 0. ;
+	double Cod14_ResN(t, b, z) ;
+		Cod14_ResN:bmtype = "tracer" ;
+		Cod14_ResN:units = "mg N" ;
+		Cod14_ResN:long_name = "Individ reserve N for Gadus morhua cohort 14" ;
+		Cod14_ResN:sumtype = 0 ;
+		Cod14_ResN:dtype = 0 ;
+		Cod14_ResN:inwc = 0 ;
+		Cod14_ResN:insed = 0 ;
+		Cod14_ResN:dissol = 0 ;
+		Cod14_ResN:decay = 0. ;
+		Cod14_ResN:partic = 1 ;
+		Cod14_ResN:passive = 0 ;
+		Cod14_ResN:svel = 0. ;
+		Cod14_ResN:xvel = 0. ;
+		Cod14_ResN:psize = 10. ;
+		Cod14_ResN:b_dens = 1000000000. ;
+		Cod14_ResN:i_conc = 200000000. ;
+		Cod14_ResN:f_conc = 200000000. ;
+		Cod14_ResN:_FillValue = 84159.9 ;
+	double Cod14_StructN(t, b, z) ;
+		Cod14_StructN:bmtype = "tracer" ;
+		Cod14_StructN:units = "mg N" ;
+		Cod14_StructN:long_name = "Individ structural N for Gadus morhua cohort 14" ;
+		Cod14_StructN:sumtype = 0 ;
+		Cod14_StructN:dtype = 0 ;
+		Cod14_StructN:inwc = 0 ;
+		Cod14_StructN:insed = 0 ;
+		Cod14_StructN:dissol = 0 ;
+		Cod14_StructN:decay = 0. ;
+		Cod14_StructN:partic = 1 ;
+		Cod14_StructN:passive = 0 ;
+		Cod14_StructN:svel = 0. ;
+		Cod14_StructN:xvel = 0. ;
+		Cod14_StructN:psize = 10. ;
+		Cod14_StructN:b_dens = 1000000000. ;
+		Cod14_StructN:i_conc = 200000000. ;
+		Cod14_StructN:f_conc = 200000000. ;
+		Cod14_StructN:_FillValue = 36591.3 ;
+	double Cod15_Nums(t, b, z) ;
+		Cod15_Nums:bmtype = "tracer" ;
+		Cod15_Nums:units = "1" ;
+		Cod15_Nums:long_name = "Numbers of Gadus morhua cohort 15" ;
+		Cod15_Nums:sumtype = 0 ;
+		Cod15_Nums:dtype = 0 ;
+		Cod15_Nums:inwc = 0 ;
+		Cod15_Nums:insed = 0 ;
+		Cod15_Nums:dissol = 0 ;
+		Cod15_Nums:decay = 0. ;
+		Cod15_Nums:partic = 1 ;
+		Cod15_Nums:passive = 0 ;
+		Cod15_Nums:svel = 0. ;
+		Cod15_Nums:xvel = 0. ;
+		Cod15_Nums:psize = 10. ;
+		Cod15_Nums:b_dens = 1000000000. ;
+		Cod15_Nums:i_conc = 200000000. ;
+		Cod15_Nums:f_conc = 200000000. ;
+		Cod15_Nums:_FillValue = 0. ;
+	double Cod15_ResN(t, b, z) ;
+		Cod15_ResN:bmtype = "tracer" ;
+		Cod15_ResN:units = "mg N" ;
+		Cod15_ResN:long_name = "Individ reserve N for Gadus morhua cohort 15" ;
+		Cod15_ResN:sumtype = 0 ;
+		Cod15_ResN:dtype = 0 ;
+		Cod15_ResN:inwc = 0 ;
+		Cod15_ResN:insed = 0 ;
+		Cod15_ResN:dissol = 0 ;
+		Cod15_ResN:decay = 0. ;
+		Cod15_ResN:partic = 1 ;
+		Cod15_ResN:passive = 0 ;
+		Cod15_ResN:svel = 0. ;
+		Cod15_ResN:xvel = 0. ;
+		Cod15_ResN:psize = 10. ;
+		Cod15_ResN:b_dens = 1000000000. ;
+		Cod15_ResN:i_conc = 200000000. ;
+		Cod15_ResN:f_conc = 200000000. ;
+		Cod15_ResN:_FillValue = 91573.6 ;
+	double Cod15_StructN(t, b, z) ;
+		Cod15_StructN:bmtype = "tracer" ;
+		Cod15_StructN:units = "mg N" ;
+		Cod15_StructN:long_name = "Individ structural N for Gadus morhua cohort 15" ;
+		Cod15_StructN:sumtype = 0 ;
+		Cod15_StructN:dtype = 0 ;
+		Cod15_StructN:inwc = 0 ;
+		Cod15_StructN:insed = 0 ;
+		Cod15_StructN:dissol = 0 ;
+		Cod15_StructN:decay = 0. ;
+		Cod15_StructN:partic = 1 ;
+		Cod15_StructN:passive = 0 ;
+		Cod15_StructN:svel = 0. ;
+		Cod15_StructN:xvel = 0. ;
+		Cod15_StructN:psize = 10. ;
+		Cod15_StructN:b_dens = 1000000000. ;
+		Cod15_StructN:i_conc = 200000000. ;
+		Cod15_StructN:f_conc = 200000000. ;
+		Cod15_StructN:_FillValue = 39814.6 ;
+	double Cod16_Nums(t, b, z) ;
+		Cod16_Nums:bmtype = "tracer" ;
+		Cod16_Nums:units = "1" ;
+		Cod16_Nums:long_name = "Numbers of Gadus morhua cohort 16" ;
+		Cod16_Nums:sumtype = 0 ;
+		Cod16_Nums:dtype = 0 ;
+		Cod16_Nums:inwc = 0 ;
+		Cod16_Nums:insed = 0 ;
+		Cod16_Nums:dissol = 0 ;
+		Cod16_Nums:decay = 0. ;
+		Cod16_Nums:partic = 1 ;
+		Cod16_Nums:passive = 0 ;
+		Cod16_Nums:svel = 0. ;
+		Cod16_Nums:xvel = 0. ;
+		Cod16_Nums:psize = 10. ;
+		Cod16_Nums:b_dens = 1000000000. ;
+		Cod16_Nums:i_conc = 200000000. ;
+		Cod16_Nums:f_conc = 200000000. ;
+		Cod16_Nums:_FillValue = 0. ;
+	double Cod16_ResN(t, b, z) ;
+		Cod16_ResN:bmtype = "tracer" ;
+		Cod16_ResN:units = "mg N" ;
+		Cod16_ResN:long_name = "Individ reserve N for Gadus morhua cohort 16" ;
+		Cod16_ResN:sumtype = 0 ;
+		Cod16_ResN:dtype = 0 ;
+		Cod16_ResN:inwc = 0 ;
+		Cod16_ResN:insed = 0 ;
+		Cod16_ResN:dissol = 0 ;
+		Cod16_ResN:decay = 0. ;
+		Cod16_ResN:partic = 1 ;
+		Cod16_ResN:passive = 0 ;
+		Cod16_ResN:svel = 0. ;
+		Cod16_ResN:xvel = 0. ;
+		Cod16_ResN:psize = 10. ;
+		Cod16_ResN:b_dens = 1000000000. ;
+		Cod16_ResN:i_conc = 200000000. ;
+		Cod16_ResN:f_conc = 200000000. ;
+		Cod16_ResN:_FillValue = 98519.6 ;
+	double Cod16_StructN(t, b, z) ;
+		Cod16_StructN:bmtype = "tracer" ;
+		Cod16_StructN:units = "mg N" ;
+		Cod16_StructN:long_name = "Individ structural N for Gadus morhua cohort 16" ;
+		Cod16_StructN:sumtype = 0 ;
+		Cod16_StructN:dtype = 0 ;
+		Cod16_StructN:inwc = 0 ;
+		Cod16_StructN:insed = 0 ;
+		Cod16_StructN:dissol = 0 ;
+		Cod16_StructN:decay = 0. ;
+		Cod16_StructN:partic = 1 ;
+		Cod16_StructN:passive = 0 ;
+		Cod16_StructN:svel = 0. ;
+		Cod16_StructN:xvel = 0. ;
+		Cod16_StructN:psize = 10. ;
+		Cod16_StructN:b_dens = 1000000000. ;
+		Cod16_StructN:i_conc = 200000000. ;
+		Cod16_StructN:f_conc = 200000000. ;
+		Cod16_StructN:_FillValue = 42834.6 ;
 	double Cod_N(t, b, z) ;
 		Cod_N:bmtype = "tracer" ;
 		Cod_N:units = "mg N m-3" ;
@@ -15833,59 +16175,58 @@ data:
 
 Cod1_Nums =
 _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- 3153839,  _,  _,  _,  _,  _,  _,  
- 11089306,  _,  _,  _,  _,  _,  _,  
- 12886655,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- 78405123,  _,  _,  _,  _,  _,  _,  
- 28265861,  _,  _,  _,  _,  _,  _,  
- 30826236,  _,  _,  _,  _,  _,  _,  
- 92043500,  _,  _,  _,  _,  _,  _,  
- 34353110,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- 2345597,  _,  _,  _,  _,  _,  _,  
- 3476006,  _,  _,  _,  _,  _,  _,  
- 1791697,  _,  _,  _,  _,  _,  _,  
- 2724284,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- 9727164,  _,  _,  _,  _,  _,  _,  
- 7291134,  _,  _,  _,  _,  _,  _,  
- 5013361,  _,  _,  _,  _,  _,  _,  
- 11021481,  _,  _,  _,  _,  _,  _,  
- 21749057,  _,  _,  _,  _,  _,  _,  
- 31600565,  _,  _,  _,  _,  _,  _,  
- 24642902,  _,  _,  _,  _,  _,  _,  
- 152802948,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _;
- 
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+4496643,  _,  _,  _,  _,  _,  _,  
+15810777,  _,  _,  _,  _,  _,  _,  
+18373380,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+111787510,  _,  _,  _,  _,  _,  _,  
+40300558,  _,  _,  _,  _,  _,  _,  
+43951058,  _,  _,  _,  _,  _,  _,  
+131232671,  _,  _,  _,  _,  _,  _,  
+48979562,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+3344277,  _,  _,  _,  _,  _,  _,  
+4955977,  _,  _,  _,  _,  _,  _,  
+2554544,  _,  _,  _,  _,  _,  _,  
+3884197,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+13868678,  _,  _,  _,  _,  _,  _,  
+10395465,  _,  _,  _,  _,  _,  _,  
+7147889,  _,  _,  _,  _,  _,  _,  
+15714075,  _,  _,  _,  _,  _,  _,  
+31009108,  _,  _,  _,  _,  _,  _,  
+45055073,  _,  _,  _,  _,  _,  _,  
+35135059,  _,  _,  _,  _,  _,  _,  
+217861544,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _;
 Cod1_StructN =
 _, _, _, _, _, _, _, 
  _, _, _, _, _, _, _, 
@@ -16002,39 +16343,39 @@ _,  _,  _,  _,  _,  _,  _,
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 2004837,  _,  _,  _,  _,  _,  _,  
- 7049266,  _,  _,  _,  _,  _,  _,  
- 8191807,  _,  _,  _,  _,  _,  _,  
+ 3230320,  _,  _,  _,  _,  _,  _,  
+ 11358221,  _,  _,  _,  _,  _,  _,  
+ 13199156,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 49840681,  _,  _,  _,  _,  _,  _,  
- 17968083,  _,  _,  _,  _,  _,  _,  
- 19595666,  _,  _,  _,  _,  _,  _,  
- 58510344,  _,  _,  _,  _,  _,  _,  
- 21837634,  _,  _,  _,  _,  _,  _,  
+ 80306447,  _,  _,  _,  _,  _,  _,  
+ 28951308,  _,  _,  _,  _,  _,  _,  
+ 31573772,  _,  _,  _,  _,  _,  _,  
+ 94275554,  _,  _,  _,  _,  _,  _,  
+ 35186172,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 1491053,  _,  _,  _,  _,  _,  _,  
- 2209632,  _,  _,  _,  _,  _,  _,  
- 1138949,  _,  _,  _,  _,  _,  _,  
- 1731777,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
+ 2402478,  _,  _,  _,  _,  _,  _,  
+ 3560299,  _,  _,  _,  _,  _,  _,  
+ 1835146,  _,  _,  _,  _,  _,  _,  
+ 2790348,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 6183377,  _,  _,  _,  _,  _,  _,  
- 4634838,  _,  _,  _,  _,  _,  _,  
- 3186901,  _,  _,  _,  _,  _,  _,  
- 7006151,  _,  _,  _,  _,  _,  _,  
- 13825471,  _,  _,  _,  _,  _,  _,  
- 20087893,  _,  _,  _,  _,  _,  _,  
- 15665035,  _,  _,  _,  _,  _,  _,  
- 97133997,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ 9963047,  _,  _,  _,  _,  _,  _,  
+ 7467944,  _,  _,  _,  _,  _,  _,  
+ 5134935,  _,  _,  _,  _,  _,  _,  
+ 11288752,  _,  _,  _,  _,  _,  _,  
+ 22276471,  _,  _,  _,  _,  _,  _,  
+ 32366879,  _,  _,  _,  _,  _,  _,  
+ 25240492,  _,  _,  _,  _,  _,  _,  
+ 156508419,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
@@ -16167,39 +16508,39 @@ _,  _,  _,  _,  _,  _,  _,
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 11261970,  _,  _,  _,  _,  _,  _,  
- 16996022,  _,  _,  _,  _,  _,  _,  
- 32721997,  _,  _,  _,  _,  _,  _,  
+17917514,  _,  _,  _,  _,  _,  _,  
+27040247,  _,  _,  _,  _,  _,  _,  
+52059882,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 12507636,  _,  _,  _,  _,  _,  _,  
- 5046941,  _,  _,  _,  _,  _,  _,  
- 5625444,  _,  _,  _,  _,  _,  _,  
- 10497282,  _,  _,  _,  _,  _,  _,  
- 6844512,  _,  _,  _,  _,  _,  _,  
+19899337,  _,  _,  _,  _,  _,  _,  
+8029557,  _,  _,  _,  _,  _,  _,  
+8949941,  _,  _,  _,  _,  _,  _,  
+16700914,  _,  _,  _,  _,  _,  _,  
+10889448,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 3996326,  _,  _,  _,  _,  _,  _,  
- 11164445,  _,  _,  _,  _,  _,  _,  
- 10224654,  _,  _,  _,  _,  _,  _,  
- 11674237,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- 13899590,  _,  _,  _,  _,  _,  _,  
- 8659815,  _,  _,  _,  _,  _,  _,  
- 5210961,  _,  _,  _,  _,  _,  _,  
- 7870745,  _,  _,  _,  _,  _,  _,  
- 11587794,  _,  _,  _,  _,  _,  _,  
- 5811629,  _,  _,  _,  _,  _,  _,  
- 5102353,  _,  _,  _,  _,  _,  _,  
- 24944344,  _,  _,  _,  _,  _,  _,  
+6358055,  _,  _,  _,  _,  _,  _,  
+17762353,  _,  _,  _,  _,  _,  _,  
+16267170,  _,  _,  _,  _,  _,  _,  
+18573420,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+_,  _,  _,  _,  _,  _,  _,  
+22113901,  _,  _,  _,  _,  _,  _,  
+13777549,  _,  _,  _,  _,  _,  _,  
+8290509,  _,  _,  _,  _,  _,  _,  
+12522159,  _,  _,  _,  _,  _,  _,  
+18435891,  _,  _,  _,  _,  _,  _,  
+9246157,  _,  _,  _,  _,  _,  _,  
+8117716,  _,  _,  _,  _,  _,  _,  
+39685830,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
@@ -16332,39 +16673,39 @@ _,  _,  _,  _,  _,  _,  _,
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 6075902,  _,  _,  _,  _,  _,  _,  
- 9169459,  _,  _,  _,  _,  _,  _,  
- 17653719,  _,  _,  _,  _,  _,  _,  
+13981065,  _,  _,  _,  _,  _,  _,  
+21099549,  _,  _,  _,  _,  _,  _,  
+40622410,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 6747947,  _,  _,  _,  _,  _,  _,  
- 2722856,  _,  _,  _,  _,  _,  _,  
- 3034962,  _,  _,  _,  _,  _,  _,  
- 5663349,  _,  _,  _,  _,  _,  _,  
- 3692656,  _,  _,  _,  _,  _,  _,  
+15527485,  _,  _,  _,  _,  _,  _,  
+6265476,  _,  _,  _,  _,  _,  _,  
+6983654,  _,  _,  _,  _,  _,  _,  
+13031751,  _,  _,  _,  _,  _,  _,  
+8497054,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 2156043,  _,  _,  _,  _,  _,  _,  
- 6023287,  _,  _,  _,  _,  _,  _,  
- 5516264,  _,  _,  _,  _,  _,  _,  
- 6298323,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
+4961201,  _,  _,  _,  _,  _,  _,  
+13859993,  _,  _,  _,  _,  _,  _,  
+12693299,  _,  _,  _,  _,  _,  _,  
+14492870,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 7498914,  _,  _,  _,  _,  _,  _,  
- 4672023,  _,  _,  _,  _,  _,  _,  
- 2811346,  _,  _,  _,  _,  _,  _,  
- 4246316,  _,  _,  _,  _,  _,  _,  
- 6251686,  _,  _,  _,  _,  _,  _,  
- 3135410,  _,  _,  _,  _,  _,  _,  
- 2752751,  _,  _,  _,  _,  _,  _,  
- 13457628,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+17255513,  _,  _,  _,  _,  _,  _,  
+10750644,  _,  _,  _,  _,  _,  _,  
+6469098,  _,  _,  _,  _,  _,  _,  
+9771061,  _,  _,  _,  _,  _,  _,  
+14385556,  _,  _,  _,  _,  _,  _,  
+7214791,  _,  _,  _,  _,  _,  _,  
+6334267,  _,  _,  _,  _,  _,  _,  
+30966918,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
@@ -16497,39 +16838,39 @@ _,  _,  _,  _,  _,  _,  _,
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 2523516,  _,  _,  _,  _,  _,  _,  
- 3808368,  _,  _,  _,  _,  _,  _,  
- 7332151,  _,  _,  _,  _,  _,  _,  
+9511900,  _,  _,  _,  _,  _,  _,  
+14354900,  _,  _,  _,  _,  _,  _,  
+27637115,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 2802637,  _,  _,  _,  _,  _,  _,  
- 1130889,  _,  _,  _,  _,  _,  _,  
- 1260516,  _,  _,  _,  _,  _,  _,  
- 2352169,  _,  _,  _,  _,  _,  _,  
- 1533678,  _,  _,  _,  _,  _,  _,  
+10563994,  _,  _,  _,  _,  _,  _,  
+4262664,  _,  _,  _,  _,  _,  _,  
+4751270,  _,  _,  _,  _,  _,  _,  
+8866042,  _,  _,  _,  _,  _,  _,  
+5780899,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 895473,  _,  _,  _,  _,  _,  _,  
- 2501663,  _,  _,  _,  _,  _,  _,  
- 2291080,  _,  _,  _,  _,  _,  _,  
- 2615894,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
+3375311,  _,  _,  _,  _,  _,  _,  
+9429530,  _,  _,  _,  _,  _,  _,  
+8635779,  _,  _,  _,  _,  _,  _,  
+9860102,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 3114538,  _,  _,  _,  _,  _,  _,  
- 1940440,  _,  _,  _,  _,  _,  _,  
- 1167641,  _,  _,  _,  _,  _,  _,  
- 1763630,  _,  _,  _,  _,  _,  _,  
- 2596524,  _,  _,  _,  _,  _,  _,  
- 1302235,  _,  _,  _,  _,  _,  _,  
- 1143305,  _,  _,  _,  _,  _,  _,  
- 5589381,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+11739643,  _,  _,  _,  _,  _,  _,  
+7314110,  _,  _,  _,  _,  _,  _,  
+4401196,  _,  _,  _,  _,  _,  _,  
+6647659,  _,  _,  _,  _,  _,  _,  
+9787092,  _,  _,  _,  _,  _,  _,  
+4908522,  _,  _,  _,  _,  _,  _,  
+4309465,  _,  _,  _,  _,  _,  _,  
+21068082,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
@@ -16662,39 +17003,39 @@ _,  _,  _,  _,  _,  _,  _,
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 1696247,  _,  _,  _,  _,  _,  _,  
- 2559895,  _,  _,  _,  _,  _,  _,  
- 4928498,  _,  _,  _,  _,  _,  _,  
+5807929,  _,  _,  _,  _,  _,  _,  
+8765047,  _,  _,  _,  _,  _,  _,  
+16875115,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 1883866,  _,  _,  _,  _,  _,  _,  
- 760157,  _,  _,  _,  _,  _,  _,  
- 847289,  _,  _,  _,  _,  _,  _,  
- 1581072,  _,  _,  _,  _,  _,  _,  
- 1030902,  _,  _,  _,  _,  _,  _,  
+6450334,  _,  _,  _,  _,  _,  _,  
+2602766,  _,  _,  _,  _,  _,  _,  
+2901107,  _,  _,  _,  _,  _,  _,  
+5413571,  _,  _,  _,  _,  _,  _,  
+3529795,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 601916,  _,  _,  _,  _,  _,  _,  
- 1681558,  _,  _,  _,  _,  _,  _,  
- 1540010,  _,  _,  _,  _,  _,  _,  
- 1758342,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
+2060952,  _,  _,  _,  _,  _,  _,  
+5757634,  _,  _,  _,  _,  _,  _,  
+5272973,  _,  _,  _,  _,  _,  _,  
+6020540,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 2093518,  _,  _,  _,  _,  _,  _,  
- 1304318,  _,  _,  _,  _,  _,  _,  
- 784861,  _,  _,  _,  _,  _,  _,  
- 1185470,  _,  _,  _,  _,  _,  _,  
- 1745322,  _,  _,  _,  _,  _,  _,  
- 875332,  _,  _,  _,  _,  _,  _,  
- 768503,  _,  _,  _,  _,  _,  _,  
- 3757049,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+7168180,  _,  _,  _,  _,  _,  _,  
+4465967,  _,  _,  _,  _,  _,  _,  
+2687353,  _,  _,  _,  _,  _,  _,  
+4059035,  _,  _,  _,  _,  _,  _,  
+5975960,  _,  _,  _,  _,  _,  _,  
+2997125,  _,  _,  _,  _,  _,  _,  
+2631343,  _,  _,  _,  _,  _,  _,  
+12864089,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
@@ -16827,39 +17168,39 @@ _,  _,  _,  _,  _,  _,  _,
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 681280,  _,  _,  _,  _,  _,  _,  
- 1028154,  _,  _,  _,  _,  _,  _,  
- 1979479,  _,  _,  _,  _,  _,  _,  
+3164408,  _,  _,  _,  _,  _,  _,  
+4775571,  _,  _,  _,  _,  _,  _,  
+9194283,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 756635,  _,  _,  _,  _,  _,  _,  
- 305309,  _,  _,  _,  _,  _,  _,  
- 340305,  _,  _,  _,  _,  _,  _,  
- 635021,  _,  _,  _,  _,  _,  _,  
- 414051,  _,  _,  _,  _,  _,  _,  
+3514417,  _,  _,  _,  _,  _,  _,  
+1418098,  _,  _,  _,  _,  _,  _,  
+1580647,  _,  _,  _,  _,  _,  _,  
+2949544,  _,  _,  _,  _,  _,  _,  
+1923183,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 241753,  _,  _,  _,  _,  _,  _,  
- 675380,  _,  _,  _,  _,  _,  _,  
- 618528,  _,  _,  _,  _,  _,  _,  
- 706219,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
+1122894,  _,  _,  _,  _,  _,  _,  
+3137005,  _,  _,  _,  _,  _,  _,  
+2872941,  _,  _,  _,  _,  _,  _,  
+3280247,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 840839,  _,  _,  _,  _,  _,  _,  
- 523865,  _,  _,  _,  _,  _,  _,  
- 315231,  _,  _,  _,  _,  _,  _,  
- 476132,  _,  _,  _,  _,  _,  _,  
- 700990,  _,  _,  _,  _,  _,  _,  
- 351568,  _,  _,  _,  _,  _,  _,  
- 308661,  _,  _,  _,  _,  _,  _,  
- 1508979,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+3905530,  _,  _,  _,  _,  _,  _,  
+2433249,  _,  _,  _,  _,  _,  _,  
+1464185,  _,  _,  _,  _,  _,  _,  
+2211535,  _,  _,  _,  _,  _,  _,  
+3255958,  _,  _,  _,  _,  _,  _,  
+1632961,  _,  _,  _,  _,  _,  _,  
+1433668,  _,  _,  _,  _,  _,  _,  
+7008904,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
@@ -16992,39 +17333,39 @@ _,  _,  _,  _,  _,  _,  _,
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 222459,  _,  _,  _,  _,  _,  _,  
- 335724,  _,  _,  _,  _,  _,  _,  
- 646360,  _,  _,  _,  _,  _,  _,  
+1663766,  _,  _,  _,  _,  _,  _,  
+2510876,  _,  _,  _,  _,  _,  _,  
+4834124,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 247064,  _,  _,  _,  _,  _,  _,  
- 99693,  _,  _,  _,  _,  _,  _,  
- 111120,  _,  _,  _,  _,  _,  _,  
- 207354,  _,  _,  _,  _,  _,  _,  
- 135200,  _,  _,  _,  _,  _,  _,  
+1847793,  _,  _,  _,  _,  _,  _,  
+745601,  _,  _,  _,  _,  _,  _,  
+831065,  _,  _,  _,  _,  _,  _,  
+1550797,  _,  _,  _,  _,  _,  _,  
+1011161,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 78940,  _,  _,  _,  _,  _,  _,  
- 220532,  _,  _,  _,  _,  _,  _,  
- 201968,  _,  _,  _,  _,  _,  _,  
- 230602,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
+590390,  _,  _,  _,  _,  _,  _,  
+1649359,  _,  _,  _,  _,  _,  _,  
+1510520,  _,  _,  _,  _,  _,  _,  
+1724672,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 274560,  _,  _,  _,  _,  _,  _,  
- 171058,  _,  _,  _,  _,  _,  _,  
- 102933,  _,  _,  _,  _,  _,  _,  
- 155472,  _,  _,  _,  _,  _,  _,  
- 228895,  _,  _,  _,  _,  _,  _,  
- 114798,  _,  _,  _,  _,  _,  _,  
- 100787,  _,  _,  _,  _,  _,  _,  
- 492728,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+2053430,  _,  _,  _,  _,  _,  _,  
+1279342,  _,  _,  _,  _,  _,  _,  
+769832,  _,  _,  _,  _,  _,  _,  
+1162770,  _,  _,  _,  _,  _,  _,  
+1711901,  _,  _,  _,  _,  _,  _,  
+858570,  _,  _,  _,  _,  _,  _,  
+753787,  _,  _,  _,  _,  _,  _,  
+3685107,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
@@ -17157,39 +17498,39 @@ _,  _,  _,  _,  _,  _,  _,
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 69518,  _,  _,  _,  _,  _,  _,  
- 104914,  _,  _,  _,  _,  _,  _,  
- 201988,  _,  _,  _,  _,  _,  _,  
+872024,  _,  _,  _,  _,  _,  _,  
+1316016,  _,  _,  _,  _,  _,  _,  
+2533692,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 77208,  _,  _,  _,  _,  _,  _,  
- 31154,  _,  _,  _,  _,  _,  _,  
- 34725,  _,  _,  _,  _,  _,  _,  
- 64798,  _,  _,  _,  _,  _,  _,  
- 42250,  _,  _,  _,  _,  _,  _,  
+968477,  _,  _,  _,  _,  _,  _,  
+390789,  _,  _,  _,  _,  _,  _,  
+435583,  _,  _,  _,  _,  _,  _,  
+812813,  _,  _,  _,  _,  _,  _,  
+529976,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 24669,  _,  _,  _,  _,  _,  _,  
- 68916,  _,  _,  _,  _,  _,  _,  
- 63115,  _,  _,  _,  _,  _,  _,  
- 72063,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
+309439,  _,  _,  _,  _,  _,  _,  
+864472,  _,  _,  _,  _,  _,  _,  
+791704,  _,  _,  _,  _,  _,  _,  
+903946,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 85800,  _,  _,  _,  _,  _,  _,  
- 53456,  _,  _,  _,  _,  _,  _,  
- 32166,  _,  _,  _,  _,  _,  _,  
- 48585,  _,  _,  _,  _,  _,  _,  
- 71530,  _,  _,  _,  _,  _,  _,  
- 35874,  _,  _,  _,  _,  _,  _,  
- 31496,  _,  _,  _,  _,  _,  _,  
- 153977,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+1076257,  _,  _,  _,  _,  _,  _,  
+670537,  _,  _,  _,  _,  _,  _,  
+403489,  _,  _,  _,  _,  _,  _,  
+609438,  _,  _,  _,  _,  _,  _,  
+897253,  _,  _,  _,  _,  _,  _,  
+449999,  _,  _,  _,  _,  _,  _,  
+395079,  _,  _,  _,  _,  _,  _,  
+1931462,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
@@ -17322,39 +17663,39 @@ _,  _,  _,  _,  _,  _,  _,
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 20856,  _,  _,  _,  _,  _,  _,  
- 31474,  _,  _,  _,  _,  _,  _,  
- 60596,  _,  _,  _,  _,  _,  _,  
+530512,  _,  _,  _,  _,  _,  _,  
+800624,  _,  _,  _,  _,  _,  _,  
+1541420,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 23162,  _,  _,  _,  _,  _,  _,  
- 9346,  _,  _,  _,  _,  _,  _,  
- 10418,  _,  _,  _,  _,  _,  _,  
- 19439,  _,  _,  _,  _,  _,  _,  
- 12675,  _,  _,  _,  _,  _,  _,  
+589191,  _,  _,  _,  _,  _,  _,  
+237744,  _,  _,  _,  _,  _,  _,  
+264995,  _,  _,  _,  _,  _,  _,  
+494490,  _,  _,  _,  _,  _,  _,  
+322421,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 7401,  _,  _,  _,  _,  _,  _,  
- 20675,  _,  _,  _,  _,  _,  _,  
- 18935,  _,  _,  _,  _,  _,  _,  
- 21619,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
- _,  _,  _,  _,  _,  _,  _,  
+188253,  _,  _,  _,  _,  _,  _,  
+525918,  _,  _,  _,  _,  _,  _,  
+481648,  _,  _,  _,  _,  _,  _,  
+549933,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
- 25740,  _,  _,  _,  _,  _,  _,  
- 16037,  _,  _,  _,  _,  _,  _,  
- 9650,  _,  _,  _,  _,  _,  _,  
- 14575,  _,  _,  _,  _,  _,  _,  
- 21459,  _,  _,  _,  _,  _,  _,  
- 10762,  _,  _,  _,  _,  _,  _,  
- 9449,  _,  _,  _,  _,  _,  _,  
- 46193,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+654761,  _,  _,  _,  _,  _,  _,  
+407934,  _,  _,  _,  _,  _,  _,  
+245470,  _,  _,  _,  _,  _,  _,  
+370763,  _,  _,  _,  _,  _,  _,  
+545861,  _,  _,  _,  _,  _,  _,  
+273766,  _,  _,  _,  _,  _,  _,  
+240354,  _,  _,  _,  _,  _,  _,  
+1175041,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
  _,  _,  _,  _,  _,  _,  _,  
@@ -17427,6 +17768,996 @@ _, _, _, _, _, _, _,
  _, _, _, _, _, _, _; 
 
 Cod10_ResN =
+_, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _; 
+
+Cod11_Nums =
+_,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+241828,  _,  _,  _,  _,  _,  _,  
+364956,  _,  _,  _,  _,  _,  _,  
+702640,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+268577,  _,  _,  _,  _,  _,  _,  
+108373,  _,  _,  _,  _,  _,  _,  
+120795,  _,  _,  _,  _,  _,  _,  
+225408,  _,  _,  _,  _,  _,  _,  
+146972,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+85813,  _,  _,  _,  _,  _,  _,  
+239734,  _,  _,  _,  _,  _,  _,  
+219554,  _,  _,  _,  _,  _,  _,  
+250681,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+298466,  _,  _,  _,  _,  _,  _,  
+185952,  _,  _,  _,  _,  _,  _,  
+111895,  _,  _,  _,  _,  _,  _,  
+169009,  _,  _,  _,  _,  _,  _,  
+248825,  _,  _,  _,  _,  _,  _,  
+124793,  _,  _,  _,  _,  _,  _,  
+109563,  _,  _,  _,  _,  _,  _,  
+535630,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _;
+ 
+Cod11_StructN =
+_, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _; 
+
+Cod11_ResN =
+_, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _; 
+
+Cod12_Nums =
+_,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+111612,  _,  _,  _,  _,  _,  _,  
+168440,  _,  _,  _,  _,  _,  _,  
+324293,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+123957,  _,  _,  _,  _,  _,  _,  
+50018,  _,  _,  _,  _,  _,  _,  
+55751,  _,  _,  _,  _,  _,  _,  
+104034,  _,  _,  _,  _,  _,  _,  
+67833,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+39606,  _,  _,  _,  _,  _,  _,  
+110646,  _,  _,  _,  _,  _,  _,  
+101332,  _,  _,  _,  _,  _,  _,  
+115698,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+137752,  _,  _,  _,  _,  _,  _,  
+85823,  _,  _,  _,  _,  _,  _,  
+51643,  _,  _,  _,  _,  _,  _,  
+78003,  _,  _,  _,  _,  _,  _,  
+114841,  _,  _,  _,  _,  _,  _,  
+57596,  _,  _,  _,  _,  _,  _,  
+50567,  _,  _,  _,  _,  _,  _,  
+247212,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _;
+ 
+Cod12_StructN =
+_, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _; 
+
+Cod12_ResN =
+_, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _; 
+
+Cod13_Nums =
+_,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+56469,  _,  _,  _,  _,  _,  _,  
+85220,  _,  _,  _,  _,  _,  _,  
+164072,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+62715,  _,  _,  _,  _,  _,  _,  
+25306,  _,  _,  _,  _,  _,  _,  
+28207,  _,  _,  _,  _,  _,  _,  
+52635,  _,  _,  _,  _,  _,  _,  
+34319,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+20038,  _,  _,  _,  _,  _,  _,  
+55980,  _,  _,  _,  _,  _,  _,  
+51268,  _,  _,  _,  _,  _,  _,  
+58536,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+69694,  _,  _,  _,  _,  _,  _,  
+43421,  _,  _,  _,  _,  _,  _,  
+26128,  _,  _,  _,  _,  _,  _,  
+39465,  _,  _,  _,  _,  _,  _,  
+58103,  _,  _,  _,  _,  _,  _,  
+29140,  _,  _,  _,  _,  _,  _,  
+25584,  _,  _,  _,  _,  _,  _,  
+125074,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _;
+ 
+Cod13_StructN =
+_, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _; 
+
+Cod13_ResN =
+_, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _; 
+
+Cod14_Nums =
+_,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+27068,  _,  _,  _,  _,  _,  _,  
+40849,  _,  _,  _,  _,  _,  _,  
+78646,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+30061,  _,  _,  _,  _,  _,  _,  
+12130,  _,  _,  _,  _,  _,  _,  
+13520,  _,  _,  _,  _,  _,  _,  
+25230,  _,  _,  _,  _,  _,  _,  
+16450,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+9605,  _,  _,  _,  _,  _,  _,  
+26833,  _,  _,  _,  _,  _,  _,  
+24574,  _,  _,  _,  _,  _,  _,  
+28058,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+33407,  _,  _,  _,  _,  _,  _,  
+20813,  _,  _,  _,  _,  _,  _,  
+12524,  _,  _,  _,  _,  _,  _,  
+18917,  _,  _,  _,  _,  _,  _,  
+27851,  _,  _,  _,  _,  _,  _,  
+13968,  _,  _,  _,  _,  _,  _,  
+12263,  _,  _,  _,  _,  _,  _,  
+59952,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _;
+ 
+Cod14_StructN =
+_, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _; 
+
+Cod14_ResN =
+_, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _; 
+
+Cod15_Nums =
+_,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+10773,  _,  _,  _,  _,  _,  _,  
+16259,  _,  _,  _,  _,  _,  _,  
+31303,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+11965,  _,  _,  _,  _,  _,  _,  
+4828,  _,  _,  _,  _,  _,  _,  
+5381,  _,  _,  _,  _,  _,  _,  
+10042,  _,  _,  _,  _,  _,  _,  
+6548,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+3823,  _,  _,  _,  _,  _,  _,  
+10680,  _,  _,  _,  _,  _,  _,  
+9781,  _,  _,  _,  _,  _,  _,  
+11168,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+13297,  _,  _,  _,  _,  _,  _,  
+8284,  _,  _,  _,  _,  _,  _,  
+4985,  _,  _,  _,  _,  _,  _,  
+7529,  _,  _,  _,  _,  _,  _,  
+11085,  _,  _,  _,  _,  _,  _,  
+5560,  _,  _,  _,  _,  _,  _,  
+4881,  _,  _,  _,  _,  _,  _,  
+238621,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _;
+ 
+Cod15_StructN =
+_, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _; 
+
+Cod15_ResN =
+_, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _; 
+
+Cod16_Nums =
+_,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+4440,  _,  _,  _,  _,  _,  _,  
+6700,  _,  _,  _,  _,  _,  _,  
+12900,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+4931,  _,  _,  _,  _,  _,  _,  
+1990,  _,  _,  _,  _,  _,  _,  
+2218,  _,  _,  _,  _,  _,  _,  
+4138,  _,  _,  _,  _,  _,  _,  
+2698,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+1575,  _,  _,  _,  _,  _,  _,  
+4401,  _,  _,  _,  _,  _,  _,  
+4031,  _,  _,  _,  _,  _,  _,  
+4602,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+5479,  _,  _,  _,  _,  _,  _,  
+3414,  _,  _,  _,  _,  _,  _,  
+2054,  _,  _,  _,  _,  _,  _,  
+3103,  _,  _,  _,  _,  _,  _,  
+4568,  _,  _,  _,  _,  _,  _,  
+2291,  _,  _,  _,  _,  _,  _,  
+2011,  _,  _,  _,  _,  _,  _,  
+9834,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _,  
+ _,  _,  _,  _,  _,  _,  _;
+ 
+Cod16_StructN =
+_, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _, 
+ _, _, _, _, _, _, _; 
+
+Cod16_ResN =
 _, _, _, _, _, _, _, 
  _, _, _, _, _, _, _, 
  _, _, _, _, _, _, _, 
