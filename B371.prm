@@ -280,7 +280,7 @@ flagdemWTO 0 WTO: 1 = on, 0 = off 1
 flagdemCEP 0 CEP: 1 = on, 0 = off 1
 # flagdemjCEP 0 jCEP: 1 = on, 0 = off 1 #What is this? juvenile JG 2020-11-04
 flagdemPWN 1 PWN: 1 = on, 0 = off 1
-# flagdemjPWN 1 jPWN: 1 = on, 0 = off 1
+flagdemjPWN 1 jPWN: 1 = on, 0 = off 1
 flagdemZM 0 ZM: 1 = on, 0 = off 1
 flagdemZS 0 ZS: 1 = on, 0 = off 1
 flagdemZL 0 ZL: 1 = on, 0 = off 1
@@ -348,8 +348,8 @@ flagtrecruitdistrib 1 0=humped recruit arrival distrib, 1=flat distrib of recrui
 # flagrecruitCEP  1  3
 # flagseperateCEP 0 CEP, CEPj are: 1 = seperate groups (or single pool), 0 = age structured single group
 
-# flagrecruitPWN  1  3
-# flagseperatePWN 0 PWN, PWNj are: 1 = seperate groups (or single pool), 0 = age structured single group
+flagrecruitPWN  1  3
+flagseperatePWN 0 PWN, PWNj are: 1 = seperate groups (or single pool), 0 = age structured single group
 
 flagrecruitFCD 19 3
 flagrecruitFHA 19 3
@@ -465,7 +465,7 @@ flaglocalrecruitWHB 1 1
 flaglocalrecruitWHT 1 1
 flaglocalrecruitWTO 1 1
 # flaglocalrecruitCEP 0
-# flaglocalrecruitPWN 0
+flaglocalrecruitPWN 0
 
 # Flag indicating whether the vertebrate group bearslive young (0 = no, 1 = yes)
 flagbearliveFCD 0 0
@@ -554,7 +554,7 @@ feed_while_spawnWHB 1 0
 feed_while_spawnWHT 1 0
 feed_while_spawnWTO 1 0
 # feed_while_spawnCEP 1 0
-# feed_while_spawnPWN 1 0
+feed_while_spawnPWN 1 0
 
 # Switch indicating whether or not efficiency of assimilation is temperature dependent
 # 0 = no (same efficiency regardless), 1 = poorer when cooler, 2 = poorer when warmer
@@ -798,7 +798,7 @@ flagZLMigrate  0  0=always remain within the model domain, 1+=migrate in/out of 
 flagBMLMigrate  0  0=always remain within the model domain, 1+=migrate in/out of the model
 # flagjCEPMigrate 0  0=always remain within the model domain, 1+=migrate in/out of the model
 flagCEPMigrate  0  0=always remain within the model domain, 1+=migrate in/out of the model
-# flagjPWNMigrate 0  0=always remain within the model domain, 1+=migrate in/out of the model
+flagjPWNMigrate 0  0=always remain within the model domain, 1+=migrate in/out of the model
 flagPWNMigrate  0  0=always remain within the model domain, 1+=migrate in/out of the model
 flagLOBMigrate  0  0=always remain within the model domain, 1+=migrate in/out of the model
 
@@ -910,7 +910,7 @@ flagWTOday  2 Active: 2 = no preference, 1 = day, 0 = night 2
 flagCEPday  2 Active: 2 = no preference, 1 = day, 0 = night 2
 # flagjCEPday 2 Active: 2 = no preference, 1 = day, 0 = night 2
 flagPWNday  2 Active: 2 = no preference, 1 = day, 0 = night 2
-# flagjPWNday  2 Active: 2 = no preference, 1 = day, 0 = night 2
+flagjPWNday  2 Active: 2 = no preference, 1 = day, 0 = night 2
 flagZMday  2 Active: 2 = no preference, 1 = day, 0 = night 2
 flagZSday  2 Active: 2 = no preference, 1 = day, 0 = night 2
 flagZLday  2 Active: 2 = no preference, 1 = day, 0 = night 2
@@ -1504,8 +1504,8 @@ habitat_DF 10
 # juv_habitat_CEP 10
 # 1 1 1 1 1 1 1 1 1 1
 
-# juv_habitat_PWN 10
-# 1 1 1 1 1 1 1 1 1 1
+juv_habitat_PWN 10
+1 1 1 1 1 1 1 1 1 1
 
 # These probably should be changed for most species #
 juv_habitat_FCD 10
@@ -1589,7 +1589,7 @@ juv_habitat_WTO 10
 habitat_CEP 10
 1 1 1 1 1 1 1 1 1 1
 
-habitat_PWN 10
+ad_habitat_PWN 10
 1 1 1 1 1 1 1 1 1 1
 
 ad_habitat_FCD 10
@@ -2808,17 +2808,17 @@ FPIN_S4juv 53
 # FCEP_S4juv 53
 # 0 0.0452 0 0 0.0484 4e-04 9e-04 0.0079 0.0062 0.0299 0.0286 0.138 0.1119 0.006 0.0028 6e-04 8e-04 0.0039 2e-04 0 0 2e-04 2e-04 0.0031 0.0064 0.0404 0 0 0 0.0164 0.0042 0 2e-04 0.0028 0.0011 7e-04 6e-04 0.0101 0.0189 0.0245 0.0591 0 0 0.0186 0 0 0 0 0 0 0 0.3608 0
 
-# FPWN_S1juv 53
-# 0 0 0 0 0 0.01296 0.0029 0.01969 0 0.07266 0.11951 0 0 0 0.05142 0.03376 0.03488 0.04229 0.00848 0 0.00471 0.06585 0.01219 0.03476 0 0 0 0 0 0 0.06518 0.02821 0.02047 0.00164 0.01105 0.02219 0.05891 0.22385 0 0.01283 0.03961 0 0 0 0 0 0 0 0 0 0 0 0
+FPWN_S1juv 53
+0 0 0 0 0 0.01296 0.0029 0.01969 0 0.07266 0.11951 0 0 0 0.05142 0.03376 0.03488 0.04229 0.00848 0 0.00471 0.06585 0.01219 0.03476 0 0 0 0 0 0 0.06518 0.02821 0.02047 0.00164 0.01105 0.02219 0.05891 0.22385 0 0.01283 0.03961 0 0 0 0 0 0 0 0 0 0 0 0
 
-# FPWN_S2juv 53
-# 0 0 0 0 0 0.01296 0.0029 0.01969 0 0.07266 0.11951 0 0 0 0.05142 0.03376 0.03488 0.04229 0.00848 0 0.00471 0.06585 0.01219 0.03476 0 0 0 0 0 0 0.06518 0.02821 0.02047 0.00164 0.01105 0.02219 0.05891 0.22385 0 0.01283 0.03961 0 0 0 0 0 0 0 0 0 0 0 0
+FPWN_S2juv 53
+0 0 0 0 0 0.01296 0.0029 0.01969 0 0.07266 0.11951 0 0 0 0.05142 0.03376 0.03488 0.04229 0.00848 0 0.00471 0.06585 0.01219 0.03476 0 0 0 0 0 0 0.06518 0.02821 0.02047 0.00164 0.01105 0.02219 0.05891 0.22385 0 0.01283 0.03961 0 0 0 0 0 0 0 0 0 0 0 0
 
-# FPWN_S3juv 53
-# 0 0 0 0 0 0.00642 0.0014 0.00221 0 0.01939 0.02979 0 0 0.05824 0.08836 0.07633 0.04237 0.04914 0.02108 0 0.00017 0.01819 0.00142 0.01854 0 0.03462 0 0 0 0 0.06473 0.01407 0.01232 0.00359 0.0446 0.04269 0.08225 0.16255 0.10224 0.00314 0.00015 0 0 0 0 0 0 0 0 0 0 0 0
+FPWN_S3juv 53
+0 0 0 0 0 0.00642 0.0014 0.00221 0 0.01939 0.02979 0 0 0.05824 0.08836 0.07633 0.04237 0.04914 0.02108 0 0.00017 0.01819 0.00142 0.01854 0 0.03462 0 0 0 0 0.06473 0.01407 0.01232 0.00359 0.0446 0.04269 0.08225 0.16255 0.10224 0.00314 0.00015 0 0 0 0 0 0 0 0 0 0 0 0
 
-# FPWN_S4juv 53
-# 0 0 0 0 0 0.00642 0.0014 0.00221 0 0.01939 0.02979 0 0 0.05824 0.08836 0.07633 0.04237 0.04914 0.02108 0 0.00017 0.01819 0.00142 0.01854 0 0.03462 0 0 0 0 0.06473 0.01407 0.01232 0.00359 0.0446 0.04269 0.08225 0.16255 0.10224 0.00314 0.00015 0 0 0 0 0 0 0 0 0 0 0 0
+FPWN_S4juv 53
+0 0 0 0 0 0.00642 0.0014 0.00221 0 0.01939 0.02979 0 0 0.05824 0.08836 0.07633 0.04237 0.04914 0.02108 0 0.00017 0.01819 0.00142 0.01854 0 0.03462 0 0 0 0 0.06473 0.01407 0.01232 0.00359 0.0446 0.04269 0.08225 0.16255 0.10224 0.00314 0.00015 0 0 0 0 0 0 0 0 0 0 0 0
 
 FBML_S1 53
 0 0 0 0 0 0.15 0 0 0 0 0 0 0 0 0 0.07 0.06 0 0.09 0 0.03 0.09 0.09 0 0 0 0 0 0 0 0.04 0.05 0.09 0 0.09 0.08 0.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -3512,8 +3512,8 @@ jWTO_Migrate_Time 1
 # jCEP_Migrate_Time 1
 # 364
 
-# jPWN_Migrate_Time 1
-# 364
+jPWN_Migrate_Time 1
+364
 
 # Adult migration times - days of the year adult stages of each group leave the model domain
 SB_Migrate_Time 1
@@ -3694,8 +3694,8 @@ jWTO_Migrate_Return 1
 # jCEP_Migrate_Return 1
 # 0
 
-# jPWN_Migrate_Return 1
-# 0
+jPWN_Migrate_Return 1
+0
 
 # Adult migration return times - days of the year adult stages of each group return the model domain
 SB_Migrate_Return 1
@@ -3875,8 +3875,8 @@ jWTO_Migrate_Period 1
 # jCEP_Migrate_Period 1
 # 0
 
-# jPWN_Migrate_Period 1
-# 0
+jPWN_Migrate_Period 1
+0
 
 # Adult migration periods - period of time migrating adult stages exit/enter over
 FCD_Migrate_Period 1
@@ -4055,8 +4055,8 @@ jWTO_ReturnStock 1
 # jCEP_ReturnStock 1
 # 0
 
-# jPWN_ReturnStock 1
-# 0
+jPWN_ReturnStock 1
+0
 
 # Adult migration return stock - set value to the integer number identifiying the stock
 # the immigrating individuals enter. If set to 0 then the returning individuals will be
@@ -4143,8 +4143,8 @@ WTO_ReturnStock 1
 # CEP_ReturnStock 1
 # 0
 
-# PWN_ReturnStock 1
-# 0
+PWN_ReturnStock 1
+0
 
 # Large zooplankton external/migration survivorship - proportion of migrating biomass that return to the model domain
 ZL_FSM 1
@@ -4244,8 +4244,8 @@ jWTO_FSM 1
 # jCEP_FSM 1
 # 1
 
-# jPWN_FSM 1
-# 1
+jPWN_FSM 1
+1
 
 # Adult external/migration survivorship - proportion of migrating adult stages that return to the model domain
 # Beth default's
@@ -4434,8 +4434,8 @@ jWHT_FSMG 1
 # jCEP_FSMG 1
 # 0
 
-# jPWN_FSMG 1
-# 0
+jPWN_FSMG 1
+0
 
 # Proportional increase in size of adults stages while outside model domain
 FCD_FSMG 1
@@ -4615,8 +4615,8 @@ MigIOBox_WHTjuv 53
 # MigIOBox_CEPjuv 53
 # 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-# MigIOBox_PWNjuv 53
-# 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+MigIOBox_PWNjuv 53
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 # Adult migrations
 MigIOBox_FCDad 53
@@ -4700,8 +4700,8 @@ MigIOBox_WHTad 53
 # MigIOBox_CEPad 53
 # 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-# MigIOBox_PWNad 53
-# 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+MigIOBox_PWNad 53
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 # Numbers and weights of each group that begin outside the model domain and must migrate in during the first year.
 # Treat it these as part of the initial conditions when setting up initial stock sizes (i.e. adjust numbers inside
@@ -4725,7 +4725,7 @@ KMIGa_INVERT_ZS	1
 KMIGa_INVERT_CEP	1
 0 0 0 0 0 0 0 0 0 0
 
-KMIGa_INVERT_PWN	1
+KMIGa_INVERT_PWN	2
 0 0 0 0 0 0 0 0 0 0
 
 KMIGa_INVERT_BML	1
@@ -4737,11 +4737,11 @@ KMIGa_INVERT_BML	1
 KMIGa_FCD 16
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-KMIGa_FHA 10
-0 0 0 0 0 0 0 0 0 0
+KMIGa_FHA 14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-KMIGa_FSA 10
-0 0 0 0 0 0 0 0 0 0
+KMIGa_FSA 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 KMIGa_FRF 10
 0 0 0 0 0 0 0 0 0 0
@@ -4765,7 +4765,7 @@ KMIGa_FDC 10
 0 0 0 0 0 0 0 0 0 0
 
 KMIGa_FMI 10
-0	0	1847822387	644184617	224574518	78290777	27293594	9515045	3317118	1156408
+0	0	1919346238	669119138	233267147	81321186	28350050	9883345
 
 KMIGa_FMA 10
 147388	82883 41824	23520	13226	7438	4182	2352	1323	743
@@ -4816,11 +4816,11 @@ KMIGa_WHT 10
 KMIGa_FCDrn 16
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-KMIGa_FHArn 10
-0 0 0 0 0 0 0 0 0 0
+KMIGa_FHArn 14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-KMIGa_FSArn 10
-0 0 0 0 0 0 0 0 0 0
+KMIGa_FSArn 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 KMIGa_FRFrn 10
 0 0 0 0 0 0 0 0 0 0
@@ -4843,8 +4843,8 @@ KMIGa_FOCrn 10
 KMIGa_FDCrn 10
 0 0 0 0 0 0 0 0 0 0
 
-KMIGa_FMIrn 10
-334.6833802222	611.5159870355	818.8812484917	954.1160014835	1036.6474350953	1085.3126665135	1113.4814270667	1129.6206569077	1138.81513732	1144.0365242798
+KMIGa_FMIrn 8
+267.81	510.10	723.42	887.45	1004.91	1085.66	1139.83	1175.63
 
 KMIGa_FMArn 10
 1063.2501680845	1989.0646174428	2654.504641074	3067.1593623563	3306.3146584861	3440.3335541632	3514.1406230593	3554.4163439351	3576.28702674	3588.1321825597
@@ -4897,11 +4897,11 @@ KMIGa_WHTrn 10
 KMIGa_FCDsn 16
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-KMIGa_FHAsn 10
-0 0 0 0 0 0 0 0 0 0
+KMIGa_FHAsn 14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-KMIGa_FSAsn 10
-0 0 0 0 0 0 0 0 0 0
+KMIGa_FSAsn 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 KMIGa_FRFsn 10
 0 0 0 0 0 0 0 0 0 0
@@ -4924,8 +4924,8 @@ KMIGa_FOCsn 10
 KMIGa_FDCsn 10
 0 0 0 0 0 0 0 0 0 0
 
-KMIGa_FMIsn 10
-126.2956151782	230.7607498247	309.0117918837	360.0437741447	391.1877113567	409.5519496277	420.1816705912	426.2719460029	429.7415612528	431.7118959546
+KMIGa_FMIsn 8
+116.44	221.78	314.53	385.85	436.92	472.03	495.58	511.15
 
 KMIGa_FMAsn 10
 401.2264785225	750.5904216765	1001.6998645562	1157.4186273043	1247.6659088627	1298.2390770427	1326.0908011545	1341.2891863906	1349.5422742415	1354.0121443622
@@ -5068,65 +5068,65 @@ p_BMFFCD 16
 p_BMLFCD 16
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_ZGFHA 10
-0 0 0 0 0 0 0 0 0 0
+p_ZGFHA 14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 
-p_ZLFHA 10
-0 0 0 0 0 0 0 0 0 0
+p_ZLFHA 14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_ZMFHA 10
-0 0 0 0 0 0 0 0 0 0
+p_ZMFHA 14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BCFHA 10
-0 0 0 0 0 0 0 0 0 0
+p_BCFHA 14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BDFHA 10
-0 0 0 0 0 0 0 0 0 0
+p_BDFHA 14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BFFHA 10
-0 0 0 0 0 0 0 0 0 0
+p_BFFHA 14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BGSFHA 10
-0 0 0 0 0 0 0 0 0 0
+p_BGSFHA 14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BGFFHA 10
-0 0 0 0 0 0 0 0 0 0
+p_BGFFHA 14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BMFFHA 10
-0 0 0 0 0 0 0 0 0 0
+p_BMFFHA 14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BMLFHA 10
-0 0 0 0 0 0 0 0 0 0
+p_BMLFHA 14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_ZGFSA 10
-0 0 0 0 0 0 0 0 0 0
+p_ZGFSA 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_ZLFSA 10
-0 0 0 0 0 0 0 0 0 0
+p_ZLFSA 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_ZMFSA 10
-0 0 0 0 0 0 0 0 0 0
+p_ZMFSA 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BCFSA 10
-0 0 0 0 0 0 0 0 0 0
+p_BCFSA 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BDFSA 10
-0 0 0 0 0 0 0 0 0 0
+p_BDFSA 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BFFSA 10
-0 0 0 0 0 0 0 0 0 0
+p_BFFSA 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BGSFSA 10
-0 0 0 0 0 0 0 0 0 0
+p_BGSFSA 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BGFFSA 10
-0 0 0 0 0 0 0 0 0 0
+p_BGFFSA 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BMFFSA 10
-0 0 0 0 0 0 0 0 0 0
+p_BMFFSA 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-p_BMLFSA 10
-0 0 0 0 0 0 0 0 0 0
+p_BMLFSA 16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 p_ZGFRF 10
 0 0 0 0 0 0 0 0 0 0
@@ -5338,35 +5338,35 @@ p_BMFFDC 10
 p_BMLFDC 10
 0 0 0 0 0 0 0 0 0 0
 
-p_ZGFMI 10
-0 0 0 0 0 0 0 0 0 0
+p_ZGFMI 8
+0 0 0 0 0 0 0 0
 
-p_ZLFMI 10
-0 0 0 0 0 0 0 0 0 0
+p_ZLFMI 8
+0 0 0 0 0 0 0 0
 
-p_ZMFMI 10
-0 0 0 0 0 0 0 0 0 0
+p_ZMFMI 8
+0 0 0 0 0 0 0 0
 
-p_BCFMI 10
-0 0 0 0 0 0 0 0 0 0
+p_BCFMI 8
+0 0 0 0 0 0 0 0
 
-p_BDFMI 10
-0 0 0 0 0 0 0 0 0 0
+p_BDFMI 8
+0 0 0 0 0 0 0 0
 
-p_BFFMI 10
-0 0 0 0 0 0 0 0 0 0
+p_BFFMI 8
+0 0 0 0 0 0 0 0
 
-p_BGSFMI 10
-0 0 0 0 0 0 0 0 0 0
+p_BGSFMI 8
+0 0 0 0 0 0 0 0
 
-p_BGFFMI 10
-0 0 0 0 0 0 0 0 0 0
+p_BGFFMI 8
+0 0 0 0 0 0 0 0
 
-p_BMFFMI 10
-0 0 0 0 0 0 0 0 0 0
+p_BMFFMI 8
+0 0 0 0 0 0 0 0
 
-p_BMLFMI 10
-0 0 0 0 0 0 0 0 0 0
+p_BMLFMI 8
+0 0 0 0 0 0 0 0
 
 p_ZGFMA 10
 0 0 0 0 0 0 0 0 0 0
@@ -6108,7 +6108,7 @@ CEP_sn           2375.0    Ref. AFDW for adult cephal. so can determine avail fi
 # jCEP_sn          375.0     Ref. AFDW for juv cephal. so can determine avail fish groups (=10cm, squid)
 ZG_sn            2375.0    Ref. AFDW for gelatin. zoopl. so can determine avail fish groups (=20cm medusa)
 BML_sn           20263.0   Ref. AFDW for megazoobenthos so can determine avail fish groups (=20cm lobster, 3.5kg)
-# jPWN_sn          10.0      Ref. AFDW for deep macrozoobenthos so can determine avail fish groups (=1cm prawn)
+jPWN_sn          10.0      Ref. AFDW for deep macrozoobenthos so can determine avail fish groups (=1cm prawn)
 PWN_sn           90.0      Ref. AFDW for deep macrozoobenthos so can determine avail fish groups (=10cm prawn)
 
 # Following parameters required for read-in, but as these species don't eat age-structured groups, not used as yet
@@ -6147,7 +6147,7 @@ C_BO_T15  0.2 Clearance rate of meiobenthos mg3(mg N)-1 d-1 0.001 - 0.05
 C_CEP_T15  0.2  Clearance rate of cephalopods mg3(mg N)-1 d-1 0.1 - 0.2
 # C_jCEP_T15  0.2  Clearance rate of juvenile cephalopods mg3(mg N)-1d-1 0.1 - 0.2
 C_PWN_T15  0.004  Clearance rate of prawns mg3(mg N)-1d-1 0.0002 - 0.004
-# C_jPWN_T15  0.007  Clearance rate of juvenile prawns mg3(mg N)-1d-1 0.0002 - 0.004
+C_jPWN_T15  0.007  Clearance rate of juvenile prawns mg3(mg N)-1d-1 0.0002 - 0.004
 C_LOB_T15  0.002  Clearance rate of lobsters mg3(mg N)-1 d-1 0.0002 - 0.004
 C_QUA_T15  0.004  Clearance rate of quahog mg3(mg N)-1 d-1 0.0002 - 0.004
 C_SCA_T15  0.002  Clearance rate of scallops mg3(mg N)-1 d-1 0.0002 - 0.004
@@ -6164,11 +6164,11 @@ flagfishrates  0  Switch to show whether clearance and growth rates are absolute
 C_FCD 16
 42.43 263.19 755.35 1469.50 1987.33 2948.01 3811.40 4679.28 5507.51 6351.74 7165.33 7898.17 8303.81 8958.46 9564.96 9564.96
 
-C_FHA 10
-128.37 591.11 1213.09 1720.55 2125.93 2428.38 2642.97 2794.38 2899.74 2899.74
+C_FHA 14
+124.77 338.94 589.56 946.02 1253.40 1543.26 1807.97 2043.20 2254.50 2434.22 2586.78 2714.87 2823.03 2823.03
 
-C_FSA 10
-146.07 1666.00 4536.87 7413.68 10121.00 12449.31 14296.68 15767.40 16915.62 16915.62
+C_FSA 16
+134.49 646.50 1642.65 2719.67 3927.73 5233.71 6596.64 7941.74 9202.36 10384.45 11403.22 12326.88 13157.43 13899.27 14558.23 12415.
 
 C_FRF 10
 64.58 639.68 1242.67 1722.40 2038.30 2215.94 2319.12 2377.98 2411.22 2411.22
@@ -6185,8 +6185,8 @@ C_FHE 10
 C_FCA 6
 3.46 14.45 19.27 20.55 22.96 22.96
 
-C_FMI 10
-218.94 362.11 462.46 524.98 561.08 581.39 593.05 599.71 603.49 603.49
+C_FMI 8
+204.02 352.66 471.29 557.26 615.33 653.57 678.88 695.48
 
 C_FMA 10
 490.17 711.84 1035.77 1167.93 1240.09 1278.34 1299.27 1310.64 1316.81 1316.81
@@ -6256,8 +6256,8 @@ mum_PB_T15       1.2      Growth rate of pelagic bacteria                  mg N 
 mum_BB_T15       1.5      Growth rate of sediment bacteria                 mg N d-1       1.0 - 2.0
 mum_CEP_T15   0.075  Growth rate of cephalopods (from AMS was 0.05 in NSW) mg N d-1 0.02 - 0.35
 # mum_jCEP_T15   0.25  Growth rate of juvenile cephalopods (from AMS was 0.05 in NSW) mg N d-1 0.02 - 0.35
-mum_PWN_T15   0.0021 Growth rate of prawns (from AMS was 0.004 in NSW) mg N d-1 0.0015 - 0.015
-# mum_jPWN_T15   0.007  Growth rate of juvenile prawns (From AMS was 0.004 in NSW) mg N d-1 0.0015 - 0.015
+mum_PWN_T15   0.001 Growth rate of prawns (from AMS was 0.004 in NSW) mg N d-1 0.0015 - 0.015
+mum_jPWN_T15   0.007  Growth rate of juvenile prawns (From AMS was 0.004 in NSW) mg N d-1 0.0015 - 0.015
 mum_LOB_T15      0.003    Growth rate of lobsters                     mg N d-1      0.0015 - 0.015
 mum_QUA_T15      0.016    Growth rate of quahog                     mg N d-1      0.0015 - 0.015
 mum_SCA_T15      0.004    Growth rate of scallop                     mg N d-1      0.0015 - 0.015
@@ -6269,11 +6269,11 @@ mum_CUC_T15      0.016    Growth rate of cucumbers                     mg N d-1 
 mum_FCD 16
 5.30 32.90 94.42 183.69 248.42 368.50 476.43 584.91 688.44 793.97 895.67 987.27 1037.98 1119.81 1195.62 1195.62
 
-mum_FHA 10
-16.0 73.89 151.64 215.07 265.74 303.55 330.37 349.30 362.47 362.47
+mum_FHA 14
+15.60 42.37 73.69 118.25 156.68 192.91 226.00 255.40 281.81 304.28 323.35 339.36 352.88 352.88
 
-mum_FSA 10
-14.6 166.60 453.69 741.37 1012.10 1244.93 1429.67 1576.74 1691.56 1691.56
+mum_FSA 16
+13.45 64.65 164.27 271.97 392.77 523.37 659.66 794.17 920.24 1038.44 1140.32 1232.69 1315.74 1389.93 1455.82 1241.56
 
 mum_FRF 10
 12.9 63.97 124.27 172.24 203.83 221.59 231.91 237.80 241.12 241.12
@@ -6308,8 +6308,8 @@ mum_FDL 10
 mum_FBP 10
 0.10 0.33 0.44 0.58 0.66 0.70 0.73 0.75 0.77 0.77
 
-mum_FMI 10
-21.89 36.21 46.25 52.50 56.11 58.14 59.31 59.97 60.35 60.35
+mum_FMI 8
+20.40 35.27 47.13 55.73 61.53 65.36 67.89 69.55
 
 mum_FMA 10
 49.02 71.18 103.58 116.79 124.01 127.83 129.93 131.06 131.68 131.68
@@ -7669,8 +7669,8 @@ Fben_den  0.95  Fraction of NH release from OB and BD used in nitrif etc calcs 0
 
 ## Vertebrate age structure parameters
 FCD_AgeClassSize  1 Number of years represented in each age class of FCD
-FHA_AgeClassSize  2 Number of years represented in each age class of FHA
-FSA_AgeClassSize  2 Number of years represented in each age class of FSA
+FHA_AgeClassSize  1 Number of years represented in each age class of FHA
+FSA_AgeClassSize  1 Number of years represented in each age class of FSA
 FRF_AgeClassSize  5 Number of years represented in each age class of FRF
 FGH_AgeClassSize  3 Number of years represented in each age class of FGH
 FFF_AgeClassSize  2 Number of years represented in each age class of FFF
@@ -7698,9 +7698,9 @@ SSH_AgeClassSize  10 Number of years represented in each age class of SSH
 # Age class of maturity
 # These are mri_fisheries_tables (first)
 # Literature then fishbase
-FCD_age_mat  3 First mature age class of FCD
-FHA_age_mat  2 First mature age class of FHA
-FSA_age_mat  2 First mature age class of FSA
+FCD_age_mat  4 First mature age class of FCD
+FHA_age_mat  3 First mature age class of FHA
+FSA_age_mat  4 First mature age class of FSA
 FRF_age_mat  3 First mature age class of FRF
 FGH_age_mat  3 First mature age class of FGH
 FFF_age_mat  4 First mature age class of FFF
@@ -7729,8 +7729,8 @@ SSH_age_mat  2 First mature age class of SSH
 # Time_Age_CEP     2
 # 90 231
 
-# Time_Age_PWN     2
-# 90 315
+Time_Age_PWN     2
+90 233
 
 # Spawning season
 FCA_Time_Spawn  60  Time of year Mallotus villosus spawn  # March - April, vilhjalmsson1994icelandic, 60
@@ -7762,7 +7762,7 @@ SSD_Time_Spawn  180  Time of year Spiky Dogshark d
 
 #date of spawning, first entry is the autumn cohort, second is the spring
 # CEP_Time_Spawn 300
-# PWN_Time_Spawn 315
+PWN_Time_Spawn 315
 
 FCD_spawn_period  60  Period of spawning for Gadus morhua d, astthorsson2007climate
 FCA_spawn_period  60  Period of spawning for Mallotus villosus March, vilhjalmsson1994icelandic
@@ -7790,7 +7790,7 @@ SSD_spawn_period  14  Period of spawning for Spiky Dogshark d
 WTO_spawn_period  14  Period of mating for Other toothed whales d
 WHT_spawn_period  14  Period of mating for Toothed whales  d
 # CEP_spawn_period  70  Period of mating for cephalopods d 1 - 365
-# PWN_spawn_period  7  Period of mating for prawns d 1 - 365
+PWN_spawn_period  7  Period of mating for prawns d 1 - 365
 WHB_spawn_period  14  Period of mating for Baleen whales d
 WMW_spawn_period  14  Period of mating for Balaenoptera acutorostrata d
 
@@ -7832,7 +7832,7 @@ SSD_Recruit_Time  350  Length of period until hatching for Spiky Dogshark d
 SB_Recruit_Time 52
 
 # CEP_Recruit_Time 180
-# PWN_Recruit_Time 180
+PWN_Recruit_Time 180
 
 # Recruitment window
 # Not exactly sure where this will come from ...
@@ -7866,7 +7866,7 @@ Recruit_Period_WMW  10  Length of time recruits arrive over for Balaenoptera acu
 Recruit_Period_WHB  30  Length of time recruits arrive over for Baleen whales d
 
 # Recruit_Period_CEP 30
-# Recruit_Period_PWN 30
+Recruit_Period_PWN 30
 
 # Entry value for cohort where recruits turn up - in almost all instances this should be zero, except where there is a complicated life history like salmon
 FCA_cohort_recruit_entry  0
@@ -7896,7 +7896,7 @@ WHB_cohort_recruit_entry  0
 SSD_cohort_recruit_entry  0
 SB_cohort_recruit_entry   0
 # CEP_cohort_recruit_entry  0
-# PWN_cohort_recruit_entry  0
+PWN_cohort_recruit_entry  0
 
 # gonad weight, mg/N
 # physical weight of the gonad organ 1% of total mg N
@@ -7966,17 +7966,17 @@ FSP_WHB  0.15   Fraction used in spawning formulation for Baleen whales
 FSP_WHT  0.15   Fraction used in spawning formulation for Toothed whales
 FSP_WTO  0.15   Fraction used in spawning formulation for Other toothed whales
 # FSP_CEP 0.2
-# FSP_PWN 0.2
+FSP_PWN 0.2
 
 ## Proportion of the population (per age) spawning. One value per cohort, number of cohorts defined in your functional group definition file.
 
 ### --- These are from the iceland_bioparams.xls spread sheet --- ###
 FSPB_FCD 16
 0 0 0.012 0.033 0.126 0.365 0.661 0.810 0.839 0.929 0.998 1 1 1 1 1
-FSPB_FHA 10
-0.035 0.399 0.768 0.898 0.968 1 1 1 1 1
-FSPB_FSA 10
-0 0.056 0.329 0.721 0.910 1 1 1 1 1
+FSPB_FHA 14
+0.007 0.067 0.273 0.523 0.721 0.823 0.884 0.918 0.970 0.991 1 1 1 1
+FSPB_FSA 16
+0 0 0 0.099 0.218 0.411 0.635 0.813 0.917 1 1 1 1 1 1 1
 FSPB_FRF 10
 0 0 0.4 0.8 1 1 1 1 1 1
 FSPB_FGH 10
@@ -7991,8 +7991,8 @@ FSPB_FOC 10
 0 0 0.1 0.5 0.9 1 1 1 1 1
 FSPB_FDC 10
 0 0 0.1 0.5 0.9 1 1 1 1 1
-FSPB_FMI 10
-0 0 0.1 0.5 0.9 1 1 1 1 1
+FSPB_FMI 8
+0 0 0.1 0.5 0.9 1 1 1
 FSPB_FMA 10
 0 0 0.1 0.5 0.9 1 1 1 1 1
 FSPB_FDF 10
@@ -8025,8 +8025,8 @@ FSPB_WTO 10
 0.0 0.1 0.5 0.9 0.9 0.9 0.9 0.9 0.9 0.9
 # FSPB_CEP 2
 # 0 1
-# FSPB_PWN 2
-# 0 1
+FSPB_PWN 2
+0 1
 
 # Recruit location spatial distributions.
 
@@ -8111,8 +8111,8 @@ WTO_recruit_hdistrib  53
 # CEP_recruit_hdistrib 53
 # 0 0 0 0 0 0.04678 0.01688 0.2643 0 0.02948 0.09851 0 0 0 0.02372 0.0052 0.01142 0.04819 0.01788 0 0.00104 0.01061 0.01345 0.06811 0 0 0 0 0 0 0.04337 0.00426 0.00679 0.03567 0.00533 0.0183 0.00983 0.1752 0 0.04568 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-# PWN_recruit_hdistrib 53
-# 0 0 0 0 0 0.01296 0.0029 0.01969 0 0.07266 0.11951 0 0 0 0.05142 0.03376 0.03488 0.04229 0.00848 0 0.00471 0.06585 0.01219 0.03476 0 0 0 0 0 0 0.06518 0.02821 0.02047 0.00164 0.01105 0.02219 0.05891 0.22385 0 0.01283 0.03961 0 0 0 0 0 0 0 0 0 0 0 0
+PWN_recruit_hdistrib 53
+0 0 0 0 0 0.01296 0.0029 0.01969 0 0.07266 0.11951 0 0 0 0.05142 0.03376 0.03488 0.04229 0.00848 0 0.00471 0.06585 0.01219 0.03476 0 0 0 0 0 0 0.06518 0.02821 0.02047 0.00164 0.01105 0.02219 0.05891 0.22385 0 0.01283 0.03961 0 0 0 0 0 0 0 0 0 0 0 0
 
 # Recruit location vertical distibutions. First entry for each vector refers to water
 # column layer closest to the sediment and then up through the watercolumn to
@@ -8199,8 +8199,8 @@ WHT_recruit_vdistrib 6
 # CEP_recruit_vdistrib 6
 # 0.5 0.3 0.1 0.1 0.0 0.0
 
-# PWN_recruit_vdistrib 6
-# 0.5 0.5 0 0 0 0
+PWN_recruit_vdistrib 6
+0.5 0.5 0 0 0 0
 
 
 # Stock specific recruitment scalars - to represent differential recruitment effectiveness
@@ -8353,8 +8353,8 @@ KDENR_FBP       1
 # KDENR_CEP 1
 # 0.002
 
-# KDENR_PWN 1
-# 0.01
+KDENR_PWN 1
+0.01
 
 
 # // Mammals and bird OK //
@@ -8420,7 +8420,7 @@ PP_WHB           4.90E+07  Coefficient relating primary production and Baleen wh
 PP_WHT           4.90E+07  Coefficient relating primary production and Toothed whales recruits
 
 # PP_CEP           3.65E+08  Coefficient relating primary production and cephalopd recruits
-# PP_PWN           3.65E+08  Coefficient relating primary production and prawn recruits
+PP_PWN           3.65E+08  Coefficient relating primary production and prawn recruits
 
 ref_chl 0.15  Reference level of chla mg Chla m-3 1.5
 
@@ -8453,7 +8453,7 @@ Ralpha_WHB      1.05E+08  Alpha in Ricker for Baleen whales
 Ralpha_WHT      1.05E+08  Alpha in Ricker for Toothed whales
 
 # Ralpha_CEP      9.00E+08  Alpha in Ricker for cephalopods
-# Ralpha_PWN      9.00E+08  Alpha in Ricker for prawns
+Ralpha_PWN      9.00E+08  Alpha in Ricker for prawns
 
 Rbeta_FCD       2.00E+11  Beta in Ricker for Gadus morhua
 Rbeta_FHA       2.00E+11  Beta in Ricker for Melanogrammus aeglefinus
@@ -8483,7 +8483,7 @@ Rbeta_WHB       2.00E+11  Beta in Ricker for Baleen whales
 Rbeta_WHT       2.00E+11  Beta in Ricker for Toothed whales
 
 # Rbeta_CEP       2.00E+12  Beta in Ricker for cephalopods
-# Rbeta_PWN       2.00E+12  Beta in Ricker for prawns
+Rbeta_PWN       2.00E+12  Beta in Ricker for prawns
 
 # --- Beverton-Holt recruitment --- #
 
@@ -8496,13 +8496,13 @@ BHalpha_FRF      1.25e+09  Alpha in Beverton-Holt for Sebastes norvegicus
 BHalpha_FGH      3.02e+07  Alpha in Beverton-Holt for Reinhardtius hippoglossoides
 BHalpha_FFF      2.98e+08  Alpha in Beverton-Holt for Pleuronectes platessa
 BHalpha_FHE      1.40e+09  Alpha in Beverton-Holt for Clupea harengus
-BHalpha_FCA      4.00e+11  Alpha in Beverton-Holt for Mallotus villosus
-BHalpha_FMI      1.30e+10  Alpha in Beverton-Holt for Lophius piscatorius
+BHalpha_FCA      6.00e+11  Alpha in Beverton-Holt for Mallotus villosus
+BHalpha_FMI      1.30e+10  Alpha in Beverton-Holt for Lophius piscatorius	
 BHalpha_FMA      6.00e+08  Alpha in Beverton-Holt for Lophius piscatorius
 BHalpha_FOC      3.00e+07  Alpha in Beverton-Holt for Scomber scombrus
 BHalpha_FDC      6.50e+07  Alpha in Beverton-Holt for Molva dypterygia
 BHalpha_FDF      5.37e+09  Alpha in Beverton-Holt for Other demersal fish
-BHalpha_FSD      6.00e+11  Alpha in Beverton-Holt for Other demersal fish
+BHalpha_FSD      8.00e+11  Alpha in Beverton-Holt for Other demersal fish
 BHalpha_FDL      1.83e+07  Alpha in Beverton-Holt for Other demersal
 BHalpha_FMP      2.60e+07  Alpha in Beverton-Holt for Other mesopelagics
 BHalpha_FBP      1.00e+11  Alpha in Beverton-Holt for Other mesopelagics
@@ -8516,7 +8516,7 @@ BHalpha_WHB      1.00E+09  Alpha in Beverton-Holt for Baleen whales
 BHalpha_WHT      1.00E+09  Alpha in Beverton-Holt for Toothed whales
 BHalpha_WTO      1.00E+09  Alpha in Beverton-Holt for Other toothed whales
 # BHalpha_CEP      9.00E+11  Alpha in Beverton-Holt for demersal cephalopods
-# BHalpha_PWN      9.00E+11  Alpha in Beverton-Holt for demersal prawns
+BHalpha_PWN      9.00E+11  Alpha in Beverton-Holt for demersal prawns
 
 # This is biomass @ 1/2 max. recruitment
 BHbeta_FCD       3.50e+11  Beta in Beverton-Holt for Gadus morhua
@@ -8526,13 +8526,13 @@ BHbeta_FRF       5.00e+10  Beta in Beverton-Holt for Sebastes norvegicus
 BHbeta_FGH       1.00e+10  Beta in Beverton-Holt for Reinhardtius hippoglossoides
 BHbeta_FFF       5.76e+10  Beta in Beverton-Holt for Pleuronectes platessa
 BHbeta_FHE		 8.00e+10  Beta in Beverton-Holt for Clupea harengus
-BHbeta_FCA       5.00e+10  Beta in Beverton-Holt for Mallotus villosus
+BHbeta_FCA       4.00e+10  Beta in Beverton-Holt for Mallotus villosus
 BHbeta_FMI       1.59e+11  Beta in Beverton-Holt for Lophius piscatorius
 BHbeta_FMA       1.09e+10  Beta in Beverton-Holt for Lophius piscatorius
 BHbeta_FOC       1.09e+10  Beta in Beverton-Holt for Scomber scombrus
 BHbeta_FDC       1.59e+10  Beta in Beverton-Holt for Molva dypterygia
 BHbeta_FDF       3.41e+10  Beta in Beverton-Holt for Other demersal fish
-BHbeta_FSD       4.00e+11  Beta in Beverton-Holt for Other demersal fish
+BHbeta_FSD       2.00e+11  Beta in Beverton-Holt for Other demersal fish
 BHbeta_FDL       2.18e+10  Beta in Beverton-Holt for Other demersal fish
 BHbeta_FMP       1.94e+10  Beta in Beverton-Holt for Other mesopelagics
 BHbeta_FBP       2.17e+10  Beta in Beverton-Holt for Other mesopelagics
@@ -8546,7 +8546,7 @@ BHbeta_WHB       8.00E+08  Beta in Beverton-Holt for Baleen whales
 BHbeta_WHT       8.00E+08  Beta in Beverton-Holt for Toothed whales
 BHbeta_WTO       8.00E+08  Beta in Beverton-Holt for Other toothed whales
 # BHbeta_CEP       2.00E+13  Beta in Beverton-Holt for demersal cephalopods
-# BHbeta_PWN       2.00E+13  Beta in Beverton-Holt for demersal prawns
+BHbeta_PWN       2.00E+13  Beta in Beverton-Holt for demersal prawns
 
 ## -- END HERE FOR BEVERTON-HOLT -- ##
 
@@ -8643,7 +8643,7 @@ WHB_log_mult  58300000000  Multipler converting distribution to number of Baleen
 WHT_log_mult  58300000000  Multipler converting distribution to number of Toothed whales
 
 # CEP_log_mult  18200000000  Multipler converting distribution to number of cephalopod recruits
-# PWN_log_mult  18200000000  Multipler converting distribution to number of prawn recruits
+PWN_log_mult  18200000000  Multipler converting distribution to number of prawn recruits
 
 ## --- END LOG-NORMAL RECRUITMENT ONLY -- ##
 
@@ -9687,7 +9687,7 @@ jack_a_WMW  0
 jack_a_WHB  0
 jack_a_WHT  0
 # jack_a_CEP	0
-# jack_a_PWN  0
+jack_a_PWN  0
 
 
 jack_b_FCD  0
@@ -9717,7 +9717,7 @@ jack_b_WMW  0
 jack_b_WHB  0
 jack_b_WHT  0
 # jack_b_CEP	0
-# jack_b_PWN	0
+jack_b_PWN	0
 
 # linear, density independent
 FCD_mL 2
@@ -9774,7 +9774,8 @@ WTO_mL 2
 0 0
 
 CEP_mL 0
-PWN_mL 0
+PWN_mL 2
+0 0
 ZM_mL 0.0
 ZS_mL 0.05
 ZL_mL 0.0
@@ -9852,7 +9853,8 @@ WHT_mQ 2
 WTO_mQ 2
 2e-07 2e-06
 CEP_mQ 0.67
-PWN_mQ 0
+PWN_mQ 2
+0 0
 ZM_mQ 0.03
 ZS_mQ 0.01
 ZL_mQ 0.01
@@ -9877,7 +9879,7 @@ PB_mQ 0
 BB_mQ 0
 
 # mT_CEP 1.0
-# mT_PWN 1.0
+mT_PWN 1.0
 
 # Flag indicating interspecies dependence of recruitment: 0 = none, 1 = linear, 2 = inverse
 intersp_depend_recruit_FCD 0
@@ -9907,7 +9909,7 @@ intersp_depend_recruit_WHB 0
 intersp_depend_recruit_WHT 0
 intersp_depend_recruit_WTO 0
 # intersp_depend_recruit_CEP 0
-# intersp_depend_recruit_PWN 0
+intersp_depend_recruit_PWN 0
 
 # ID of species recruitment dependent on
 intersp_depend_sp_FCD 0
@@ -9937,7 +9939,7 @@ intersp_depend_sp_WHB 0
 intersp_depend_sp_WHT 0
 intersp_depend_sp_WTO 0
 # intersp_depend_sp_CEP 0
-# intersp_depend_sp_PWN 0
+intersp_depend_sp_PWN 0
 
 # Scalar for dependency of recruitment
 intersp_depend_scale_FCD 0
@@ -9967,7 +9969,7 @@ intersp_depend_scale_WHB 0
 intersp_depend_scale_WHT 0
 intersp_depend_scale_WTO 0
 # intersp_depend_scale_CEP 0
-# intersp_depend_scale_PWN 0
+intersp_depend_scale_PWN 0
 
 # If recruitment is habitat dependent
 FCD_rec_HabDepend 0
@@ -10000,7 +10002,7 @@ CEP_rec_HabDepend 0
 PWN_rec_HabDepend 0
 
 # prop_spawn_lost_CEP 0
-# prop_spawn_lost_PWN 0
+prop_spawn_lost_PWN 0
 
 # Flag indicating whether stocking recruits or not
 flagstockingFCD 0
@@ -10030,7 +10032,7 @@ flagstockingWHB 0
 flagstockingWHT 0
 flagstockingWTO 0
 # flagstockingCEP 0
-# flagstockingPWN 0
+flagstockingPWN 0
 
 # --- Rugosity Flags -------------
 # which rugosity model to use
@@ -10984,7 +10986,7 @@ flagfecundsensitive_WHB 0
 flagfecundsensitive_WHT 0
 flagfecundsensitive_WTO 0
 # flagfecundsensitive_CEP 0
-# flagfecundsensitive_PWN 0
+flagfecundsensitive_PWN 0
 
 # Whether the species is sensitive to salinity
 flagSaltSensitive_FCD 0
@@ -11424,17 +11426,17 @@ pPREYCEP	56
 # pPREY2CEP2	56																																																						
 # 0	0	0	0	0	0	0	0.01	0.0001	0	0	0	0.01	0	0	0.01	0.0001	0	0	0	0	0	0	0	0	0	0.001	0.1	0.3	0	0.5	0.001	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 																																																							
-pPREYPWN	56																																																						
+pPREY1PWN1	56																																																						
 0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0001	0.001	0.0001	0	0.01	0.0001	0.0001	0.0001	0.0001	0	0.005	0.005	0	0	0.001	0	0	0	0	0	0	0	0.1	0.01	0	0.05	0	0
 																																																							
-# pPREY1PWN2	56																																																						
-# 0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	0.001	0.0001	0	0.01	0.0001	0.0001	0.0001	0.0001	0	0.005	0.005	0	0	0	0	0	0	0	0	0	0	0.1	0.01	0	0.05	0	0
+pPREY1PWN2	56																																																						
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	0.001	0.0001	0	0.01	0.0001	0.0001	0.0001	0.0001	0	0.005	0.005	0	0	0	0	0	0	0	0	0	0	0.1	0.01	0	0.05	0	0
 																																																							
-# pPREY2PWN1	56																																																						
-# 0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0001	0.001	0.0001	0	0.01	0.0001	0.0001	0.0001	0.0001	0	0.005	0.005	0	0	0.001	0	0	0	0	0.001	0	0	0.1	0.01	0	0.05	0	0
+pPREY2PWN1	56																																																						
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0001	0.001	0.0001	0	0.01	0.0001	0.0001	0.0001	0.0001	0	0.005	0.005	0	0	0.001	0	0	0	0	0.001	0	0	0.1	0.01	0	0.05	0	0
 																																																							
-# pPREY2PWN2	56																																																						
-# 0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	0.001	0.0001	0	0.01	0.0001	0.0001	0.0001	0.0001	0	0.005	0.005	0	0	0	0	0	0	0	0	0	0	0.1	0.01	0	0.05	0	0
+pPREY2PWN2	56																																																						
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	0.001	0.0001	0	0.01	0.0001	0.0001	0.0001	0.0001	0	0.005	0.005	0	0	0	0	0	0	0	0	0	0	0.1	0.01	0	0.05	0	0
 																																																							
 pPREYZM	56																																																						
 0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.2	0	0	0	0	0	0	0	0	0	0	0	0	0.01	0.005	0	0.001	0	0.01	0	0	0.00001	0.00001	0	0	0	0
